@@ -8,27 +8,27 @@ import { motion } from 'framer-motion';
 const slideImages = [
     {
         url: 'https://images.pexels.com/photos/6077368/pexels-photo-6077368.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        caption: '𝗖𝘂𝗿𝘁𝗮𝗶𝗻𝘀'
+        caption: 'Curtains'
     },
     {
         url: 'https://images.pexels.com/photos/813691/pexels-photo-813691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        caption: '𝗕𝗶𝗻𝗱𝗶𝗻𝗴𝘀'
+        caption: 'Bindings'
     },
     {
         url: 'https://images.pexels.com/photos/6758245/pexels-photo-6758245.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        caption: '𝗦𝗼𝗳𝗮𝘀 & 𝗗𝗲𝗰𝗼𝗿'
+        caption: 'Sofas & Decor'
     },
     {
         url: 'https://images.pexels.com/photos/271815/pexels-photo-271815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        caption: '𝗠𝗼𝗱𝘂𝗹𝗮𝗿'
+        caption: 'Modular'
     },
     {
         url: 'https://images.pexels.com/photos/1080719/pexels-photo-1080719.jpeg',
-        caption: '𝗛𝗼𝗺𝗲 𝗗𝗲𝗰𝗼𝗿'
+        caption: 'Home Decor'
     },
     {
         url: 'https://images.pexels.com/photos/7491145/pexels-photo-7491145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        caption: '𝗙𝗿𝗲𝗲 𝗙𝗮𝗯𝗿𝗶𝗰 𝗦𝗮𝗺𝗽𝗹𝗲𝘀'
+        caption: 'Free Fabric Samples'
     },
 ];
 

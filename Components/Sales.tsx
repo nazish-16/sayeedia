@@ -5,7 +5,7 @@ const Sales = () => {
         <div>
             <div className='flex flex-col items-center justify-center p-10' id='samples'>
                 <div className='max-w-5xl text-center text-gray-700'>
-                    <h1 className='text-3xl text-[#ff9c4a] tracking-wider'>𝗦𝗮𝗺𝗽𝗹𝗲𝘀</h1>
+                    <h1 className='text-3xl text-[#ff9c4a]'>Samples</h1>
                     <p className='p-5'>At Sayeedia's Curtain Gallery, our samples stand as a testament to excellence in design and craftsmanship. Each curtain showcases meticulous attention to detail, crafted with premium materials that ensure durability and luxurious appeal.</p>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2'>

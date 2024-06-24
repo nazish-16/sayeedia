@@ -5,7 +5,7 @@ const Store = () => {
         <>
             <div className='flex flex-col items-center justify-center pt-10'>
                 <div className='max-w-5xl w-full px-4 text-center text-gray-700'>
-                    <h1 className='text-3xl text-[#ff9c4a] tracking-wide'>𝗦𝘁𝗼𝗿𝗲 𝗩𝗶𝗲𝘄</h1>
+                    <h1 className='text-3xl text-[#ff9c4a]'>Store View</h1>
                     <p className='py-4'>
                         Experience our store through our immersive 360-degree view. Navigate seamlessly through our spaces, browse our offerings, and get inspired from wherever you are.
                     </p>

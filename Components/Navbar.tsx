@@ -91,7 +91,7 @@ const Navbar = () => {
                     </div>
                     <div>
                         <a
-                            className="text-center text-orange-400 uppercase relative top-0 left-0 lg:bottom-[-2px] lg:left-10 text-xl lg:text-3xl"
+                            className="text-center text-orange-400 relative top-0 left-0 lg:bottom-[-2px] lg:left-10 text-xl lg:text-3xl"
                             href="/"
                         >
                             S𝓪𝔂𝓮𝓮𝓭𝓲𝓪𝓼 C𝓾𝓻𝓽𝓪𝓲𝓷 G𝓪𝓵𝓵𝓮𝓻𝔂

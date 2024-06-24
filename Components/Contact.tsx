@@ -7,43 +7,75 @@ const Contact = () => {
     };
 
     return (
-        <div className="flex flex-col justify-center items-center p-10" id='contact'>
-            <h1 className="mt-10 text-center text-3xl tracking-wide mb-6 text-[#fb923c]">
-                𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝘂𝘀
-            </h1>
-            <p className='max-w-5xl text-center'>Experience elegance at Sayedia Curtains Gallery. From bespoke curtains to expert interior advice, we're here to transform your space. Contact us today to schedule a consultation and elevate your home or business with our tailored solutions and impeccable service.</p>
-            <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg relative top-10">
-                <form className="space-y-6" onSubmit={submitButton}>
-                    <div>
-                        <label htmlFor="name" className="block text-sm font-medium leading-6">Name</label>
-                        <div className="mt-2">
-                            <input id="name" name="name" type="text" autoComplete="name" required className="block w-full rounded-md py-1.5 sm:text-sm border-2 border-orange-400" />
+        <div className='bg-gray-100 p-8'>
+            <div className='items-center flex flex-col justify-center'>
+                <h1 className="text-3xl text-center text-orange-500 m-4">
+                    Curtain Inquiries
+                </h1>
+                <p className='hidden sm:flex max-w-3xl text-center m-4'>
+                    Experience elegance at Sayedia Curtains Gallery. From bespoke curtains to expert interior advice, we're here to transform your space. Contact us today to schedule a consultation and elevate your home or business with our tailored solutions and impeccable service.
+                </p>
+            </div>
+            <div className='flex flex-col xl:flex-row items-center justify-center'>
+                <div className='flex-col p-12 items-center hidden md:flex'>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15229.797951152723!2d78.4511805!3d17.3902036!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb970d42f1502d%3A0x47c1f01b436babee!2sSayeedia&#39;s%20Curtain%20Gallery!5e0!3m2!1sen!2sin!4v1719257020891!5m2!1sen!2sin"
+                        width="600"
+                        height="450"
+                        style={{ border: '0' }}
+                        allowFullScreen
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                    />
+                </div>
+                <div className='flex flex-col w-[100%] md:w-[60%] xl:w-[30%] p-10 bg-white rounded-lg shadow-lg'>
+                    <form onSubmit={submitButton} className='space-y-6'>
+                        <div>
+                            <label className='block text-sm font-medium text-gray-700'>Name</label>
+                            <input
+                                type="text"
+                                className='mt-1 block w-full px-3 py-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
+                                required
+                            />
                         </div>
-                    </div>
-                    <div>
-                        <label htmlFor="email" className="block text-sm font-medium leading-6">Email</label>
-                        <div className="mt-2">
-                            <input id="email" name="email" type="email" autoComplete="email" required className="block w-full rounded-md py-1.5 sm:text-sm border-2 border-orange-400" />
+                        <div>
+                            <label className='block text-sm font-medium text-gray-700'>Email</label>
+                            <input
+                                type="email"
+                                className='mt-1 block w-full px-3 py-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
+                                required
+                            />
                         </div>
-                    </div>
-                    <div>
-                        <label htmlFor="subject" className="block text-sm font-medium leading-6">Subject</label>
-                        <div className="mt-2">
-                            <input id="subject" name="subject" type="text" autoComplete="subject" required className="block w-full rounded-md py-1.5 sm:text-sm border-2 border-orange-400" />
+                        <div>
+                            <label className='block text-sm font-medium text-gray-700'>Type</label>
+                            <select
+                                name="Type"
+                                className='mt-1 block w-full px-3 py-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
+                            >
+                                <option value="Curtains">Curtains</option>
+                                <option value="Sofas & Decor">Sofas & Decor</option>
+                                <option value="Blindings">Blindings</option>
+                                <option value="Fabric">Fabric</option>
+                            </select>
                         </div>
-                    </div>
-                    <div>
-                        <label htmlFor="message" className="block text-sm font-medium leading-6">Message</label>
-                        <div className="mt-2">
-                            <textarea id="message" name="message" autoComplete="message" required className="block w-full rounded-md py-1.5 sm:text-sm border-2 border-orange-400" rows={5}></textarea>
+                        <div>
+                            <label className='block text-sm font-medium text-gray-700'>Message</label>
+                            <textarea
+                                className='mt-1 block w-full px-3 py-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
+                                rows={4}
+                                required
+                            />
                         </div>
-                    </div>
-                    <div className="flex justify-center">
-                        <button type="submit" className="flex justify-center rounded-md border-2 border-orange-400 px-4 py-2 text-sm font-semibold transition duration-300 hover:bg-orange-400 hover:text-white">
-                            Submit
-                        </button>
-                    </div>
-                </form>
+                        <div className='flex justify-center'>
+                            <button
+                                type="submit"
+                                className='px-6 py-2 border-2 border-orange-400 text-black hover:text-white font-medium rounded-md shadow-sm hover:bg-orange-400 transition-all'
+                            >
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     );
