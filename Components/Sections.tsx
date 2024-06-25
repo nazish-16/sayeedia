@@ -65,7 +65,7 @@ const Sections = () => {
                         <p className='pt-5'> <strong>Minhaj Ahmed</strong>, the visionary behind Sayeedia's Curtain Gallery, embodies a passion for interior design that stems from a lifelong appreciation for aesthetics and functionality. With a keen eye for detail and a commitment to quality, Minhaj has curated a collection of curtains that blend innovation with timeless elegance.</p>
                     </div>
                     <div className='grid grid-cols-1 pt-8 pr-6 pl-6 items-center'>
-                        <img src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg" alt="" className='ml-4 hover:scale-105 transition-transform rounded-full m-2' width={400} />
+                        <img src="https://media.discordapp.net/attachments/1196703548205973504/1255093153447542847/image.png?ex=667be016&is=667a8e96&hm=e39073c5b559484d68aba902fde293a1eab6e1158fca1490690b95ddca2b325e&=&format=webp&quality=lossless" alt="" className='ml-4 hover:scale-105 transition-transform rounded-full m-2' width={400} />
                     </div>
                 </div>
                 <Sales />
