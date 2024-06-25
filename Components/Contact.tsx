@@ -7,7 +7,7 @@ const Contact = () => {
     };
 
     return (
-        <div className='bg-gray-100 p-8'>
+        <div className='bg-gray-100 p-8' id='contact'>
             <div className='items-center flex flex-col justify-center'>
                 <h1 className="text-3xl text-center text-orange-500 m-4">
                     Curtain Inquiries

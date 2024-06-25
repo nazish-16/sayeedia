@@ -16,3 +16,52 @@ body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
 }
+.message-icon-container {
+  position: fixed;
+  bottom: 20px;
+  right: 17px;
+  width: 55px;
+  z-index: 1000000;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+.message-icon {
+  padding: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.contact-options-container {
+  position: fixed;
+  bottom: 74px;
+  right: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 50;
+  padding: 10px;
+  border-radius: 10px;
+  animation: slide-in 0.3s ease;
+}
+
+.contact-option {
+  margin: 5px;
+}
+
+.contact-icon {
+  width: 60px;
+  height: 60px;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
