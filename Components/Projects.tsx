@@ -5,7 +5,7 @@ const Projects = () => {
 
     return (
         <>
-            <div className='flex flex-col items-center justify-center p-5'>
+            <div className='flex flex-col items-center justify-center p-5' id='projects'>
                 <h1 className='text-3xl text-[#ff9c4a] p-4 text-center'>Our Projects</h1>
                 <p className='max-w-5xl text-center'>Sayedia Curtains Gallery prides itself on a legacy of excellence in every project undertaken. Renowned for its craftsmanship and attention to detail, Sayedia Curtains Gallery ensures that each client's vision is not only met but exceeded.</p>
             </div>

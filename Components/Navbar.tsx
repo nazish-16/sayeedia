@@ -43,10 +43,11 @@ const Navbar = () => {
                     >
                         <motion.ul className="flex flex-col md:flex-row justify-center items-center">
                             {[
-                                { text: "home", path: "/" },
-                                { text: "about us", path: "#company" },
-                                { text: "services", path: "#samples" },
-                                { text: "contact us", path: "#contact" },
+                                { text: "Curtains", path: "/" },
+                                { text: "Home Decor", path: "/" },
+                                { text: "Sofas & Seating", path: "/" },
+                                { text: "Furniture", path: "/" },
+                                { text: "Cushion covers", path: "/" },
                             ].map((item, index) => (
                                 <motion.li
                                     key={index}
@@ -110,13 +111,11 @@ const Navbar = () => {
                         <div>
                             <motion.ul className="flex flex-col md:flex-row justify-center items-center">
                                 {[
-                                    "Curtains",
-                                    "Home Decor",
-                                    "Sofas & Seating",
-                                    "Modular",
-                                    "Furniture",
-                                    "Mattresses",
-                                    "Storage",
+                                    { text: "Home", path: "/" },
+                                    { text: "About us", path: "#company" },
+                                    { text: "services", path: "#samples" },
+                                    { text: "projects", path: "#projects" },
+                                    { text: "contact us", path: "#contact" },
                                 ].map((item, index) => (
                                     <motion.li
                                         key={index}
@@ -126,7 +125,7 @@ const Navbar = () => {
                                         animate="visible"
                                         transition={{ delay: index * 0.1, duration: 0.3 }}
                                     >
-                                        <Link href="#">{item}</Link>
+                                        <Link href={item.path}>{item.text}</Link>
                                     </motion.li>
                                 ))}
                             </motion.ul>
