@@ -43,11 +43,12 @@ const Navbar = () => {
                     >
                         <motion.ul className="flex flex-col md:flex-row justify-center items-center">
                             {[
-                                { text: "Curtains", path: "/" },
-                                { text: "Home Decor", path: "/" },
-                                { text: "Sofas & Seating", path: "/" },
-                                { text: "Furniture", path: "/" },
-                                { text: "Cushion covers", path: "/" },
+                                { text: "Home", path: "/home" },
+                                { text: "Curtains", path: "/curtains" },
+                                { text: "Home Decor", path: "/homedecor" },
+                                { text: "Sofas & Seating", path: "/sofas" },
+                                { text: "Furniture", path: "/furniture" },
+                                { text: "Cushion covers", path: "/cushions" },
                             ].map((item, index) => (
                                 <motion.li
                                     key={index}
@@ -92,7 +93,7 @@ const Navbar = () => {
                     </div>
                     <div>
                         <a
-                            className="text-center text-orange-400 relative top-0 left-0 lg:bottom-[-2px] lg:left-10 text-xl lg:text-3xl"
+                            className="text-center text-orange-400 relative top-0 left-0 lg:bottom-[-2px] lg:left-[72px] text-xl lg:text-3xl"
                             href="/"
                         >
                             S𝓪𝔂𝓮𝓮𝓭𝓲𝓪𝓼 C𝓾𝓻𝓽𝓪𝓲𝓷 G𝓪𝓵𝓵𝓮𝓻𝔂
@@ -111,7 +112,6 @@ const Navbar = () => {
                         <div>
                             <motion.ul className="flex flex-col md:flex-row justify-center items-center">
                                 {[
-                                    { text: "Home", path: "/" },
                                     { text: "About us", path: "#company" },
                                     { text: "services", path: "#samples" },
                                     { text: "projects", path: "#projects" },
