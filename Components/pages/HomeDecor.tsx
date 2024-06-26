@@ -1,11 +1,11 @@
 'use client'
 
-import React from 'react'
+import React from 'react';
 
 const HomeDecor = () => {
     return (
-        <div>HomeDecor</div>
-    )
+        <div>Home Decor</div>
+    );
 }
 
-export default HomeDecor
+export default HomeDecor;

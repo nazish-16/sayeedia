@@ -58,20 +58,21 @@ const Sections = () => {
                     </div>
                 </div>
                 <hr />
-                <div className='flex flex-col items-center justify-center p-12' id='company'>
-                    <div className='max-w-5xl text-center text-gray-700'>
+                <div className='flex flex-col xl:flex-row items-center justify-center p-12' id='company'>
+                    <div className='max-w-4xl text-center text-gray-700'>
                         <h1 className='text-3xl text-[#ff9c4a]'>Company Profile</h1>
                         <p className='pt-5'>Sayeedia Curtain Gallery established for over 20 years now and all made to measure curtains and curtains, specializing in made-to-measure curtains. Their extensive experience ensures high-quality, custom-fitted curtains tailored to meet the specific needs and tastes of their clients. With a focus on craftsmanship and customer satisfaction, Sayeedia Curtain Gallery offers a wide range of fabrics and designs, providing bespoke solutions that enhance any living space.</p>
                         <p className='pt-5'> <strong>Minhaj Ahmed</strong>, the visionary behind Sayeedia's Curtain Gallery, embodies a passion for interior design that stems from a lifelong appreciation for aesthetics and functionality. With a keen eye for detail and a commitment to quality, Minhaj has curated a collection of curtains that blend innovation with timeless elegance.</p>
                     </div>
-                    <div className='grid grid-cols-1 pt-8 pr-6 pl-6 items-center'>
-                        <img src="https://media.discordapp.net/attachments/1196703548205973504/1255093153447542847/image.png?ex=667be016&is=667a8e96&hm=e39073c5b559484d68aba902fde293a1eab6e1158fca1490690b95ddca2b325e&=&format=webp&quality=lossless" alt="" className='ml-4 rounded-full m-2' width={400} />
+                    <div className='pt-8 pr-6 pl-6 items-center'>
+                        <img src="https://media.discordapp.net/attachments/1196703548205973504/1255093153447542847/image.png?ex=667be016&is=667a8e96&hm=e39073c5b559484d68aba902fde293a1eab6e1158fca1490690b95ddca2b325e&=&format=webp&quality=lossless" alt="" className='ml-4 rounded-full m-2' width={330} />
                     </div>
                 </div>
                 <Sales />
                 <Projects />
                 <hr />
                 <Store />
+                <hr />
                 <Contact />
                 <Footer />
             </div>

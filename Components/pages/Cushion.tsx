@@ -1,11 +1,11 @@
 'use client'
 
-import React from 'react'
+import React from 'react';
 
-const Cushion = () => {
+const Cushions = () => {
     return (
-        <div>Cushion</div>
-    )
+        <div>Cushions</div>
+    );
 }
 
-export default Cushion
+export default Cushions;

@@ -1,11 +1,11 @@
 'use client'
 
-import React from 'react'
+import React from 'react';
 
-const Curtains = () => {
+const curtains = () => {
     return (
         <div>Curtains</div>
-    )
+    );
 }
 
-export default Curtains
+export default curtains;

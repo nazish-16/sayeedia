@@ -2,10 +2,10 @@
 
 import React from 'react'
 
-const Furniture = () => {
+const furniture = () => {
     return (
         <div>Furniture</div>
     )
 }
 
-export default Furniture
+export default furniture

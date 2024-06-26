@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
-import Link from "next/link";
-import React, { useState } from "react";
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+import React, { useState } from 'react';
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
@@ -35,31 +35,68 @@ const Navbar = () => {
                             onClick={toggleMenu}
                             className="text-gray-500 text-xl transition bg-white rounded pl-2 pr-2"
                         >
-                            {isOpen ? "✖" : "☰"}
+                            {isOpen ? '✖' : '☰'}
                         </button>
                     </div>
                     <div
-                        className={`md:flex md:items-center ${isOpen ? "block" : "hidden"}`}
+                        className={`md:flex md:items-center ${isOpen ? 'block' : 'hidden'}`}
                     >
                         <motion.ul className="flex flex-col md:flex-row justify-center items-center">
-                            {[
-                                { text: "Curtains", path: "/curtains" },
-                                { text: "Home Decor", path: "/homedecor" },
-                                { text: "Sofas & Seating", path: "/sofas" },
-                                { text: "Furniture", path: "/furniture" },
-                                { text: "Cushion covers", path: "/cushions" },
-                            ].map((item, index) => (
-                                <motion.li
-                                    key={index}
-                                    className="m-3 text-gray-500 text-xs font-normal hover:text-orange-400 transition uppercase"
-                                    variants={fadeIn}
-                                    initial="hidden"
-                                    animate="visible"
-                                    transition={{ delay: index * 0.1, duration: 0.3 }}
-                                >
-                                    <Link href={item.path}>{item.text}</Link>
-                                </motion.li>
-                            ))}
+                            <motion.li
+                                className="m-3 text-gray-500 text-xs font-normal hover:text-orange-400 transition uppercase"
+                                variants={fadeIn}
+                                initial="hidden"
+                                animate="visible"
+                                transition={{ delay: 0.1, duration: 0.3 }}
+                            >
+                                <Link href="/curtains">
+                                    Curtains
+                                </Link>
+                            </motion.li>
+                            <motion.li
+                                className="m-3 text-gray-500 text-xs font-normal hover:text-orange-400 transition uppercase"
+                                variants={fadeIn}
+                                initial="hidden"
+                                animate="visible"
+                                transition={{ delay: 0.1, duration: 0.3 }}
+                            >
+                                <Link href="/furniture">
+                                    Furniture
+                                </Link>
+                            </motion.li>
+                            <motion.li
+                                className="m-3 text-gray-500 text-xs font-normal hover:text-orange-400 transition uppercase"
+                                variants={fadeIn}
+                                initial="hidden"
+                                animate="visible"
+                                transition={{ delay: 0.1, duration: 0.3 }}
+                            >
+                                <Link href="/cushion">
+                                    Cushions
+                                </Link>
+                            </motion.li>
+                            <motion.li
+                                className="m-3 text-gray-500 text-xs font-normal hover:text-orange-400 transition uppercase"
+                                variants={fadeIn}
+                                initial="hidden"
+                                animate="visible"
+                                transition={{ delay: 0.1, duration: 0.3 }}
+                            >
+                                <Link href="/homedecor">
+                                    Home decor
+                                </Link>
+                            </motion.li>
+                            <motion.li
+                                className="m-3 text-gray-500 text-xs font-normal hover:text-orange-400 transition uppercase"
+                                variants={fadeIn}
+                                initial="hidden"
+                                animate="visible"
+                                transition={{ delay: 0.1, duration: 0.3 }}
+                            >
+                                <Link href="/sofas">
+                                    Sofas & Decor
+                                </Link>
+                            </motion.li>
                         </motion.ul>
                     </div>
                 </div>
@@ -111,11 +148,11 @@ const Navbar = () => {
                         <div>
                             <motion.ul className="flex flex-col md:flex-row justify-center items-center">
                                 {[
-                                    { text: "Home", path: "/" },
-                                    { text: "About us", path: "#company" },
-                                    { text: "services", path: "#samples" },
-                                    { text: "projects", path: "#projects" },
-                                    { text: "contact us", path: "#contact" },
+                                    { text: 'Home', path: '/' },
+                                    { text: 'About us', path: '#company' },
+                                    { text: 'services', path: '#samples' },
+                                    { text: 'projects', path: '#projects' },
+                                    { text: 'contact us', path: '#contact' },
                                 ].map((item, index) => (
                                     <motion.li
                                         key={index}
@@ -125,7 +162,9 @@ const Navbar = () => {
                                         animate="visible"
                                         transition={{ delay: index * 0.1, duration: 0.3 }}
                                     >
-                                        <Link href={item.path}>{item.text}</Link>
+                                        <Link href={item.path}>
+                                            {item.text}
+                                        </Link>
                                     </motion.li>
                                 ))}
                             </motion.ul>

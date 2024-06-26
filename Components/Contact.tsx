@@ -7,7 +7,7 @@ const Contact = () => {
     };
 
     return (
-        <div className='bg-gray-100 p-8' id='contact'>
+        <div className='p-8' id='contact'>
             <div className='items-center flex flex-col justify-center'>
                 <h1 className="text-3xl text-center text-orange-500 m-4">
                     Curtain Inquiries
@@ -29,28 +29,44 @@ const Contact = () => {
                     />
                 </div>
                 <div className='flex flex-col w-[100%] md:w-[60%] xl:w-[30%] p-10 bg-white rounded-lg shadow-lg'>
-                    <form onSubmit={submitButton} className='space-y-6'>
-                        <div>
-                            <label className='block text-sm font-medium text-gray-700'>Name</label>
+                    <form onSubmit={submitButton} className='space-y-6 grid-cols-1 xl:grid-cols-2 grid relative bottom-16'>
+                        <div className='p-1'>
+                            <label className='block text-sm font-medium text-gray-700 relative top-6'>Name</label>
                             <input
                                 type="text"
-                                className='mt-1 block w-full px-3 py-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
+                                className='mt-7 block w-full p-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
                                 required
                             />
                         </div>
-                        <div>
+                        <div className='p-1'>
                             <label className='block text-sm font-medium text-gray-700'>Email</label>
                             <input
                                 type="email"
-                                className='mt-1 block w-full px-3 py-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
+                                className='mt-1 block w-full p-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
                                 required
                             />
                         </div>
-                        <div>
+                        <div className='p-1'>
+                            <label className='block text-sm font-medium text-gray-700'>Address</label>
+                            <input
+                                type="adress"
+                                className='mt-1 block w-full p-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
+                                required
+                            />
+                        </div>
+                        <div className='p-1'>
+                            <label className='block text-sm font-medium text-gray-700'>Phone Number</label>
+                            <input
+                                type="phone-number"
+                                className='mt-1 block w-full p-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
+                                required
+                            />
+                        </div>
+                        <div className='p-1'>
                             <label className='block text-sm font-medium text-gray-700'>Type</label>
                             <select
                                 name="Type"
-                                className='mt-1 block w-full px-3 py-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
+                                className='mt-1 block w-full p-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
                             >
                                 <option value="Curtains">Curtains</option>
                                 <option value="Sofas & Decor">Sofas & Decor</option>
@@ -58,23 +74,23 @@ const Contact = () => {
                                 <option value="Fabric">Fabric</option>
                             </select>
                         </div>
-                        <div>
+                        <div className='p-1'>
                             <label className='block text-sm font-medium text-gray-700'>Message</label>
                             <textarea
-                                className='mt-1 block w-full px-3 py-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
-                                rows={4}
+                                className='mt-1 block w-full p-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
+                                rows={1}
                                 required
                             />
                         </div>
-                        <div className='flex justify-center'>
-                            <button
-                                type="submit"
-                                className='px-6 py-2 border-2 border-orange-400 text-black hover:text-white font-medium rounded-md shadow-sm hover:bg-orange-400 transition-all'
-                            >
-                                Submit
-                            </button>
-                        </div>
                     </form>
+                    <div className='flex justify-center items-center'>
+                        <button
+                            type="submit"
+                            className='px-6 py-2 border-2 border-orange-400 text-black hover:text-white font-medium rounded-md shadow-sm hover:bg-orange-400 transition-all items-center'
+                        >
+                            Submit
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
