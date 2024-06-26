@@ -43,7 +43,6 @@ const Navbar = () => {
                     >
                         <motion.ul className="flex flex-col md:flex-row justify-center items-center">
                             {[
-                                { text: "Home", path: "/home" },
                                 { text: "Curtains", path: "/curtains" },
                                 { text: "Home Decor", path: "/homedecor" },
                                 { text: "Sofas & Seating", path: "/sofas" },
@@ -112,6 +111,7 @@ const Navbar = () => {
                         <div>
                             <motion.ul className="flex flex-col md:flex-row justify-center items-center">
                                 {[
+                                    { text: "Home", path: "/" },
                                     { text: "About us", path: "#company" },
                                     { text: "services", path: "#samples" },
                                     { text: "projects", path: "#projects" },
