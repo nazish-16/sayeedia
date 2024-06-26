@@ -23,17 +23,17 @@ export default function Home() {
       {showContactOptions && (
         <div className="contact-options-container hover:cursor-pointer">
           <div className="contact-option">
-            <a href="#">
+            <a href="https://wa.me/9700011630">
               <img src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" alt="WhatsApp" className="contact-icon" />
             </a>
           </div>
           <div className="contact-option">
-            <a href="#">
+            <a href="mailto:minhajahmed@gmail.com">
               <img src="https://img.icons8.com/?size=100&id=qyRpAggnV0zH&format=png&color=000000" alt="Email" className="contact-icon" />
             </a>
           </div>
           <div className="contact-option">
-            <a href="#">
+            <a href="tel:+919700011630">
               <img src="https://img.icons8.com/?size=100&id=124195&format=png&color=000000" alt="Phone" className="contact-icon" />
             </a>
           </div>

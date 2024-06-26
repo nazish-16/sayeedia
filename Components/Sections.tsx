@@ -27,32 +27,32 @@ const Sections = () => {
             <div className='relative top-[260px]'>
                 <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6'>
                     <div className='flex flex-col p-10 items-center justify-center rounded-lg m-1 transition'>
-                        <img src="https://www.curtainlabel.com/wp-content/uploads/2023/03/OCEAN_1229_4-150x150.jpg" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
+                        <img src="https://images-ext-1.discordapp.net/external/4HKwXl88t0u3W1fvpuxWyPoe-so49wSboCWK18-fKfI/https/www.curtainlabel.com/wp-content/uploads/2023/03/OCEAN_1229_4-150x150.jpg?format=webp" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
                         <h1 className='p-4 text-2xl text-[#205980] font-normal tracking-wider text-center'>Curtains</h1>
                         <p className='max-w-lg text-center text-md text-gray-700'>Our stunning collection of curtains is sure to make your room stand out.</p>
                     </div>
                     <div className='flex flex-col p-10 items-center justify-center m-1 transition'>
-                        <img src="https://www.curtainlabel.com/wp-content/uploads/2023/05/ATMOSPHERE_109_2-150x150.jpg" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
+                        <img src="https://images-ext-1.discordapp.net/external/a5GoxY9nivyIADBVYwCd0_bmM-qXUW7avkxDPGHgqSk/https/www.curtainlabel.com/wp-content/uploads/2023/05/ATMOSPHERE_109_2-150x150.jpg?format=webp" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
                         <h1 className='p-4 text-2xl text-[#205980] font-normal tracking-wider text-center'>Cushion Covers</h1>
                         <p className='max-w-lg text-center text-md text-gray-700'>Looking for the perfect piece to complement your sofa? Look no further!</p>
                     </div>
                     <div className='flex flex-col p-10 items-center justify-center m-1 transition'>
-                        <img src="https://www.curtainlabel.com/wp-content/uploads/2023/06/Untitled-design-1-150x150.png" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
+                        <img src="https://images-ext-1.discordapp.net/external/KyqbcA2qoy9a8VmvMih8yDKB9UDcn5D6YIbdCpQmOss/https/www.curtainlabel.com/wp-content/uploads/2023/06/Untitled-design-1-150x150.png?format=webp&quality=lossless" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
                         <h1 className='p-4 text-2xl text-[#205980] font-normal tracking-wider text-center'>Blinds</h1>
                         <p className='max-w-lg text-center text-md text-gray-700'>Blinds are a quick and easy way to transform your space. There are endless color & style</p>
                     </div>
                     <div className='flex flex-col p-10 items-center justify-center m-1 transition'>
-                        <img src="https://www.curtainlabel.com/wp-content/uploads/2023/06/Untitled-design-2-150x150.png" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
+                        <img src="https://images-ext-1.discordapp.net/external/SzvrrPxSSIYxMmb4sm2w5QHgjQU4sETcu6hWSTGZUD4/https/www.curtainlabel.com/wp-content/uploads/2023/06/Untitled-design-2-150x150.png?format=webp&quality=lossless" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
                         <h1 className='p-4 text-2xl text-[#205980] font-normal tracking-wider text-center'>Curtain Finials</h1>
                         <p className='max-w-lg text-center text-md text-gray-700  m-1'>Add a finishing touch to your decor with our collection of finials. The perfect style</p>
                     </div>
                     <div className='flex flex-col p-10 items-center justify-center m-1 transition'>
-                        <img src="https://www.curtainlabel.com/wp-content/uploads/2023/03/CEDAR_1258_4-1-150x150.jpg" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
+                        <img src="https://images-ext-1.discordapp.net/external/-MHyGXQuP2_Vjp10REG_x0T6fO9sJqdUMA7nfryX_Cs/https/www.curtainlabel.com/wp-content/uploads/2023/03/CEDAR_1258_4-1-150x150.jpg?format=webp" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
                         <h1 className='p-4 text-2xl text-[#205980] font-normal tracking-wider text-center'>Fabric Samples</h1>
                         <p className='max-w-lg text-center text-md text-gray-700'>We offer a variety of different types of fabric, to help you find the perfect fit for your project.</p>
                     </div>
                     <div className='flex flex-col p-10 items-center justify-center m-1 transition'>
-                        <img src="https://www.curtainlabel.com/wp-content/uploads/2023/04/EXPRESSION_1230_1-150x150.jpg" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
+                        <img src="https://images-ext-1.discordapp.net/external/ZEWxxoROnadIiax3hmTbjAgAv0pfl25NiV7ji1w0XGA/https/www.curtainlabel.com/wp-content/uploads/2023/04/EXPRESSION_1230_1-150x150.jpg?format=webp" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
                         <h1 className='p-4 text-2xl text-[#205980] font-normal tracking-wider text-center'>Sheer Curtains</h1>
                         <p className='max-w-lg text-center text-md text-gray-700'>Our sheer curtains add a touch of elegance to your home. These sheers will add style and privacy</p>
                     </div>
