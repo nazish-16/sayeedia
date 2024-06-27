@@ -29,7 +29,7 @@ const Contact = () => {
                     />
                 </div>
                 <div className='flex flex-col w-[100%] md:w-[60%] xl:w-[30%] p-10 bg-white rounded-lg shadow-lg'>
-                    <form onSubmit={submitButton} className='space-y-6 grid-cols-1 xl:grid-cols-2 grid relative bottom-16'>
+                    <form onSubmit={submitButton} className='space-y-6 grid-cols-1 md:grid-cols-2 grid relative bottom-16'>
                         <div className='p-1'>
                             <label className='block text-sm font-medium text-gray-700 relative top-6'>Name</label>
                             <input
@@ -42,14 +42,6 @@ const Contact = () => {
                             <label className='block text-sm font-medium text-gray-700'>Email</label>
                             <input
                                 type="email"
-                                className='mt-1 block w-full p-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
-                                required
-                            />
-                        </div>
-                        <div className='p-1'>
-                            <label className='block text-sm font-medium text-gray-700'>Address</label>
-                            <input
-                                type="adress"
                                 className='mt-1 block w-full p-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
                                 required
                             />
@@ -74,15 +66,15 @@ const Contact = () => {
                                 <option value="Fabric">Fabric</option>
                             </select>
                         </div>
-                        <div className='p-1'>
-                            <label className='block text-sm font-medium text-gray-700'>Message</label>
-                            <textarea
-                                className='mt-1 block w-full p-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
-                                rows={1}
-                                required
-                            />
-                        </div>
                     </form>
+                    <div className='p-1 bottom-12 relative'>
+                        <label className='block text-sm font-medium text-gray-700'>Message</label>
+                        <textarea
+                            className='mt-1 block w-full p-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
+                            rows={4}
+                            required
+                        />
+                    </div>
                     <div className='flex justify-center items-center'>
                         <button
                             type="submit"
