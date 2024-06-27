@@ -10,7 +10,7 @@ const Contact = () => {
         <div className='p-8' id='contact'>
             <div className='items-center flex flex-col justify-center'>
                 <h1 className="text-3xl text-center text-orange-500 m-4">
-                    Curtain Inquiries
+                    Connect with us
                 </h1>
                 <p className='hidden sm:flex max-w-3xl text-center m-4'>
                     Experience elegance at Sayedia Curtains Gallery. From bespoke curtains to expert interior advice, we're here to transform your space. Contact us today to schedule a consultation and elevate your home or business with our tailored solutions and impeccable service.
