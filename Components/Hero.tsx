@@ -25,11 +25,7 @@ const slideImages = [
     {
         url: 'https://images.pexels.com/photos/1080719/pexels-photo-1080719.jpeg',
         caption: 'Home Decor'
-    },
-    {
-        url: 'https://images.pexels.com/photos/7491145/pexels-photo-7491145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        caption: 'Free Fabric Samples'
-    },
+    }
 ];
 
 const Hero = () => {

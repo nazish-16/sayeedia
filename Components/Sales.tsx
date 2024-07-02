@@ -10,25 +10,25 @@ const Sales = () => {
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2'>
                     <div className='flex flex-col p-3 items-center justify-center rounded-lg m-1 transition'>
-                        <img src="https://images-ext-1.discordapp.net/external/vh-U5ZBJ_62RPCTke9phgBFqk6b0zpOQKH-XnjVcDa0/https/www.curtainlabel.com/wp-content/uploads/2023/09/REMOVED-01_4_3.jpg?format=webp&width=1202&height=676" alt="#" className='w-[660px] rounded-3xl hover:scale-110 transition-transform cursor-pointer' />
+                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257783660804051046/WhatsApp_Image_2024-07-02_at_15.54.58_da02791a.jpg?ex=6685a9d1&is=66845851&hm=24ecc62a817ca81de82248302fc4a6555593acc9e6b4509adaa3ef3d1cae4499&=&format=webp&width=901&height=676" alt="#" className='w-[520px] rounded-3xl hover:scale-110 transition-transform cursor-pointer' />
                         <h1 className='p-3 text-2xl text-[#205980] font-normal tracking-wider text-center'>Cushion Covers</h1>
                         <p className='max-w-lg text-center text-md text-gray-700'>100sets of assorted cushion covers @ Rs. 15,000/-</p>
                         <a href="#" className='mt-5 pl-5 pr-5 pt-2 pb-2 bg-[#20596e] text-white rounded-lg hover:bg-[#ff9c4a] transition-all'>Cushion Covers</a>
                     </div>
                     <div className='flex flex-col p-3 items-center justify-center m-1 transition'>
-                        <img src="https://images-ext-1.discordapp.net/external/2fRj-DfEgG0ndMRTzrnlZ2agkNdlzCrJ6CnCVLVp3qY/https/www.curtainlabel.com/wp-content/uploads/2023/09/REMOVED-01_4_1.jpg?format=webp&width=1202&height=676" alt="#" className='w-[660px] rounded-3xl hover:scale-110 transition-transform cursor-pointer' />
+                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257783562606743683/WhatsApp_Image_2024-07-02_at_15.53.13_dbd01736.jpg?ex=6685a9b9&is=66845839&hm=bbac6b979bb5c36b3ac832b1f5d81bb93bd0a15c330ff772f43d3f9fc7e3bf9d&=&format=webp&width=901&height=676" alt="#" className='w-[520px] rounded-3xl hover:scale-110 transition-transform cursor-pointer' />
                         <h1 className='p-3 text-2xl text-[#205980] font-normal tracking-wider text-center'>Curtains</h1>
                         <p className='max-w-lg text-center text-md text-gray-700'>For an exceptional price of Rs. 699/-</p>
                         <a href="#" className='mt-5 pl-5 pr-5 pt-2 pb-2 bg-[#20596e] text-white rounded-lg hover:bg-[#ff9c4a] transition-all'>Curtains</a>
                     </div>
                     <div className='flex flex-col p-3 items-center justify-center m-1 transition'>
-                        <img src="https://images-ext-1.discordapp.net/external/bENcJK2NR_JzM22ylHTGeCle4jL7xeY4IAwTGvXddeg/https/www.curtainlabel.com/wp-content/uploads/2023/06/ACCORD_1195_3.jpg?format=webp&width=1202&height=676" alt="#" className='w-[660px] rounded-3xl hover:scale-110 transition-transform cursor-pointer' />
+                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257783608672911370/WhatsApp_Image_2024-07-02_at_15.53.13_6159b5a0.jpg?ex=6685a9c4&is=66845844&hm=220216afc62ecc6c8c4d35f1187a3b4527a5a6a1808bc7c9a60e86c47807f120&=&format=webp&width=901&height=676" alt="#" className='w-[520px] rounded-3xl hover:scale-110 transition-transform cursor-pointer' />
                         <h1 className='p-3 text-2xl text-[#205980] font-normal tracking-wider text-center'>Blinds</h1>
                         <p className='max-w-lg text-center text-md text-gray-700'>ou'll never find a more stylish and versatile solution to your window coverage. Make your home feel like home and add a touch of warmth with our wide selection of luxury curtains.</p>
                         <a href="#" className='mt-5 pl-5 pr-5 pt-2 pb-2 bg-[#20596e] text-white rounded-lg hover:bg-[#ff9c4a] transition-all'>Blinds</a>
                     </div>
                     <div className='flex flex-col p-3 items-center justify-center m-1 transition'>
-                        <img src="https://images-ext-1.discordapp.net/external/X45hqI-LhaFw7WlE8Pc0AXuXCtf6yhyHgBGDAKn7pTQ/https/www.curtainlabel.com/wp-content/uploads/2023/06/ACCORD_1195_1.jpg?format=webp&width=1202&height=676" alt="#" className='w-[660px] rounded-3xl hover:scale-110 transition-transform cursor-pointer' />
+                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257783643674247188/WhatsApp_Image_2024-07-02_at_15.54.09_465a430f.jpg?ex=6685a9cd&is=6684584d&hm=e4f48253b98c244f89cee72f980230364b75f135d35dc135396aa993c9b21148&=&format=webp&width=901&height=676" alt="#" className='w-[520px] rounded-3xl hover:scale-110 transition-transform cursor-pointer' />
                         <h1 className='p-3 text-2xl text-[#205980] font-normal tracking-wider text-center'>Curtain Finials</h1>
                         <p className='max-w-lg text-center text-md text-gray-700  m-1'>Savvy curtains aren't born. They're made by you. And to make the job easier, we've got some ways to get you started</p>
                         <a href="#" className='mt-5 pl-5 pr-5 pt-2 pb-2 bg-[#20596e] text-white rounded-lg hover:bg-[#ff9c4a] transition-all'>Curtain Finials</a>
