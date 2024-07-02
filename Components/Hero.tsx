@@ -7,19 +7,19 @@ import { motion } from 'framer-motion';
 
 const slideImages = [
     {
-        url: 'https://images.pexels.com/photos/6077368/pexels-photo-6077368.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        url: 'https://cdn.pixabay.com/photo/2016/08/26/15/06/home-1622401_1280.jpg',
         caption: 'Curtains'
     },
     {
-        url: 'https://images.pexels.com/photos/813691/pexels-photo-813691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        caption: 'Bindings'
+        url: 'https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        caption: 'Blinds'
     },
     {
-        url: 'https://images.pexels.com/photos/6758245/pexels-photo-6758245.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        url: 'https://cdn.pixabay.com/photo/2017/03/19/01/43/living-room-2155376_1280.jpg',
         caption: 'Sofas & Decor'
     },
     {
-        url: 'https://images.pexels.com/photos/271815/pexels-photo-271815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        url: 'https://cdn.pixabay.com/photo/2017/08/27/10/16/interior-2685521_1280.jpg',
         caption: 'Modular'
     },
     {

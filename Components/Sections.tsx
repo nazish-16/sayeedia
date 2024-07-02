@@ -39,7 +39,7 @@ const Sections = () => {
                     <div className='flex flex-col p-10 items-center justify-center m-1 transition'>
                         <img src="https://media.discordapp.net/attachments/1257783340673536053/1257786943345922108/image.png?ex=6685acdf&is=66845b5f&hm=340a8f51abd60c665a76631e7aaa8e913271584d59469fcc4369f723d20641e3&=&format=webp&quality=lossless" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
                         <h1 className='p-4 text-2xl text-[#205980] font-normal tracking-wider text-center'>Catalogs</h1>
-                        <p className='max-w-lg text-center text-md text-gray-700'>Blinds are a quick and easy way to transform your space. There are endless color & style</p>
+                        <p className='max-w-lg text-center text-md text-gray-700'>Catalogs are a quick and easy way to check out more samples. There are endless color & style</p>
                     </div>
                     <div className='flex flex-col p-10 items-center justify-center m-1 transition'>
                         <img src="https://media.discordapp.net/attachments/1257783340673536053/1257787857980882955/image.png?ex=6685adb9&is=66845c39&hm=d3a71841cfb90c313e29f43ddff32d444ca5df7cf9582679e02a0164ba161581&=&format=webp&quality=lossless&width=741&height=676" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />

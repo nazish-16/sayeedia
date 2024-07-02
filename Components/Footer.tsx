@@ -5,9 +5,11 @@ const Footer = () => {
         <div>
             <div className='flex flex-col md:flex-row p-[100px] mt-10 bg-[#ececec] items-center justify-between'>
                 <div>
-                    <img src="https://img.icons8.com/?size=100&id=Os2uH6Y2KyxM&format=png&color=000000" width={30} className='pb-4 relative left-[42%] md:left-0' />
-                    <a href="/" className='text-[18px] lg:text-2xl text-[#fb923c] text-center'>S𝓪𝔂𝓮𝓮𝓭𝓲𝓪𝓼 C𝓾𝓻𝓽𝓪𝓲𝓷 G𝓪𝓵𝓵𝓮𝓻𝔂</a>
-                    <p className='pt-3 text-center md:text-start'>"Transform your space with our elegant curtains –<br /> tailored to perfection, adding style and privacy effortlessly."</p>
+                    <div className='items-center lg:items-start flex flex-col justify-center'>
+                        <img src="https://img.icons8.com/?size=100&id=Os2uH6Y2KyxM&format=png&color=000000" width={30} className='pb-4' />
+                        <a href="/" className='text-[18px] lg:text-2xl text-[#fb923c] text-center'>S𝓪𝔂𝓮𝓮𝓭𝓲𝓪𝓼 C𝓾𝓻𝓽𝓪𝓲𝓷 G𝓪𝓵𝓵𝓮𝓻𝔂</a>
+                        <p className='pt-3 text-center md:text-start'>"Transform your space with our elegant curtains –<br /> tailored to perfection, adding style and privacy effortlessly."</p>
+                    </div>
                     <div className='flex flex-row pt-5 relative left-[-10px]'>
                         <a href="https://www.instagram.com/sayeedia_curtain_gallery/">
                             <img src="https://img.icons8.com/?size=100&id=32292&format=png&color=000000" alt="insta" width={30} className='m-4 hover:translate-y-[-2px] transition-all' />
