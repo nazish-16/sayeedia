@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Footer = () => {
     return (
@@ -31,30 +32,30 @@ const Footer = () => {
                 <div className='hidden lg:flex flex-col items-center justify-center'>
                     <h1 className='text-2xl text-[#205980] text-center font-normal'>Curtains</h1>
                     <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Turkish</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Persian</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Arab</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Pakistani</a>
+                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Metallic</a>
+                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Qupid</a>
+                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>English Net</a>
                 </div>
                 <div className='hidden lg:flex flex-col items-center justify-center'>
-                    <h1 className='text-2xl text-[#205980] text-center font-normal'>Opulence</h1>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Turkish</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Persian</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Arab</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Pakistani</a>
+                    <h1 className='text-2xl text-[#205980] text-center font-normal'>Bedsheets</h1>
+                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Trendy</a>
+                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Silk Satin</a>
+                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Mimosa</a>
+                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Hybrid</a>
                 </div>
                 <div className='hidden lg:flex flex-col items-center justify-center'>
                     <h1 className='text-2xl text-[#205980] text-center font-normal'>Decoration</h1>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Turkish</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Persian</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Arab</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Pakistani</a>
+                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Finials</a>
+                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Rope</a>
+                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Catalogs</a>
+                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Accessories</a>
                 </div>
                 <div className='hidden lg:flex flex-col items-center justify-center'>
-                    <h1 className='text-2xl text-[#205980] text-center font-normal'>Blinds</h1>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Turkish</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Persian</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Arab</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Pakistani</a>
+                    <h1 className='text-2xl text-[#205980] text-center font-normal'>Sofas</h1>
+                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Alfa</a>
+                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Monaco</a>
+                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Twinkle</a>
+                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Velvet</a>
                 </div>
             </div>
         </div >
