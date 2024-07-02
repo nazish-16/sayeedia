@@ -11,7 +11,7 @@ const slideImages = [
         caption: 'Curtains'
     },
     {
-        url: 'https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        url: 'https://images.pexels.com/photos/8382236/pexels-photo-8382236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         caption: 'Blinds'
     },
     {
