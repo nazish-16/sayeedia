@@ -44,7 +44,6 @@ const Navbar: React.FC = () => {
                         <motion.ul className="flex flex-col md:flex-row justify-center items-center">
                             {[
                                 { text: 'Curtains', href: '/curtains' },
-                                { text: 'Comforters', href: '/comforters' },
                                 { text: 'Bedsheets', href: '/bedsheets' },
                                 { text: 'Catalogs & accessories', href: '/catalogs' },
                                 { text: 'Sofas & Decor', href: '/sofas' },
