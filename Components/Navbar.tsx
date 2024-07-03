@@ -26,11 +26,13 @@ const Navbar: React.FC = () => {
             >
                 <div className="bg-[#eeeeee] lg:flex justify-center items-center">
                     <div className="md:hidden flex justify-between flex-row p-2">
-                        <img
-                            src="https://img.icons8.com/?size=100&id=2VkB5nq4yhf6&format=png&color=000000"
-                            alt="curtain"
-                            width={30}
-                        />
+                        <Link href="/">
+                            <img
+                                src="https://img.icons8.com/?size=100&id=2VkB5nq4yhf6&format=png&color=000000"
+                                alt="curtain"
+                                width={30}
+                            />
+                        </Link>
                         <button
                             onClick={toggleMenu}
                             className="text-gray-500 text-xl transition bg-white rounded pl-2 pr-2"
