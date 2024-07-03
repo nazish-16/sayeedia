@@ -42,61 +42,26 @@ const Navbar: React.FC = () => {
                         className={`md:flex md:items-center ${isOpen ? 'block' : 'hidden'}`}
                     >
                         <motion.ul className="flex flex-col md:flex-row justify-center items-center">
-                            <motion.li
-                                className="m-3 text-gray-500 text-xs font-normal hover:text-orange-400 transition uppercase"
-                                variants={fadeIn}
-                                initial="hidden"
-                                animate="visible"
-                                transition={{ delay: 0.1, duration: 0.3 }}
-                            >
-                                <Link href="/curtains">
-                                    Curtains
-                                </Link>
-                            </motion.li>
-                            <motion.li
-                                className="m-3 text-gray-500 text-xs font-normal hover:text-orange-400 transition uppercase"
-                                variants={fadeIn}
-                                initial="hidden"
-                                animate="visible"
-                                transition={{ delay: 0.1, duration: 0.3 }}
-                            >
-                                <Link href="/cushion">
-                                    Comforters
-                                </Link>
-                            </motion.li>
-                            <motion.li
-                                className="m-3 text-gray-500 text-xs font-normal hover:text-orange-400 transition uppercase"
-                                variants={fadeIn}
-                                initial="hidden"
-                                animate="visible"
-                                transition={{ delay: 0.1, duration: 0.3 }}
-                            >
-                                <Link href="/homedecor">
-                                    BEDSHEETS
-                                </Link>
-                            </motion.li>
-                            <motion.li
-                                className="m-3 text-gray-500 text-xs font-normal hover:text-orange-400 transition uppercase"
-                                variants={fadeIn}
-                                initial="hidden"
-                                animate="visible"
-                                transition={{ delay: 0.1, duration: 0.3 }}
-                            >
-                                <Link href="/homedecor">
-                                    Catalogs & accessories
-                                </Link>
-                            </motion.li>
-                            <motion.li
-                                className="m-3 text-gray-500 text-xs font-normal hover:text-orange-400 transition uppercase"
-                                variants={fadeIn}
-                                initial="hidden"
-                                animate="visible"
-                                transition={{ delay: 0.1, duration: 0.3 }}
-                            >
-                                <Link href="/sofas">
-                                    Sofas & Decor
-                                </Link>
-                            </motion.li>
+                            {[
+                                { text: 'Curtains', href: '/curtains' },
+                                { text: 'Comforters', href: '/comforters' },
+                                { text: 'Bedsheets', href: '/bedsheets' },
+                                { text: 'Catalogs & accessories', href: '/catalogs' },
+                                { text: 'Sofas & Decor', href: '/sofas' },
+                            ].map((item, index) => (
+                                <motion.li
+                                    key={index}
+                                    className="m-3 text-gray-500 text-xs font-normal hover:text-orange-400 transition uppercase"
+                                    variants={fadeIn}
+                                    initial="hidden"
+                                    animate="visible"
+                                    transition={{ delay: 0.1, duration: 0.3 }}
+                                >
+                                    <Link href={item.href} legacyBehavior>
+                                        <a>{item.text}</a>
+                                    </Link>
+                                </motion.li>
+                            ))}
                         </motion.ul>
                     </div>
                 </div>
@@ -150,9 +115,9 @@ const Navbar: React.FC = () => {
                                 {[
                                     { text: 'Home', path: '/' },
                                     { text: 'About us', path: '#company' },
-                                    { text: 'services', path: '#samples' },
-                                    { text: 'projects', path: '#projects' },
-                                    { text: 'contact us', path: '#contact' },
+                                    { text: 'Services', path: '#samples' },
+                                    { text: 'Projects', path: '#projects' },
+                                    { text: 'Contact us', path: '#contact' },
                                 ].map((item, index) => (
                                     <motion.li
                                         key={index}
@@ -162,8 +127,8 @@ const Navbar: React.FC = () => {
                                         animate="visible"
                                         transition={{ delay: index * 0.1, duration: 0.3 }}
                                     >
-                                        <Link href={item.path}>
-                                            {item.text}
+                                        <Link href={item.path} legacyBehavior>
+                                            <a>{item.text}</a>
                                         </Link>
                                     </motion.li>
                                 ))}
