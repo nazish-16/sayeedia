@@ -20,7 +20,7 @@ const Page = () => {
             <div>
                 <Navbar />
                 <div className='flex flex-col items-center justify-center p-7'>
-                    <h1 className='text-[#fb923c] text-3xl pt-5'>Bedsheets & Comforters</h1>
+                    <h1 className='text-[#fb923c] text-2xl pt-5'>Bedsheets & Comforters</h1>
                     <p className='max-w-5xl text-center p-7'>Discover the epitome of comfort and style with our luxurious bedsheet collection. Crafted from the finest materials, our bedsheets are designed to offer the perfect blend of softness, durability, and elegance.</p>
                     <h1 className='text-[#205980] text-2xl pt-5 font-normal underline underline-offset-1'>Trendy Comforters</h1>
                     <div className='flex justify-between items-center'>
