@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Sales = () => {
     return (
@@ -10,28 +11,28 @@ const Sales = () => {
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2'>
                     <div className='flex flex-col p-3 items-center justify-center rounded-lg m-1 transition'>
-                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257783660804051046/WhatsApp_Image_2024-07-02_at_15.54.58_da02791a.jpg?ex=6685a9d1&is=66845851&hm=24ecc62a817ca81de82248302fc4a6555593acc9e6b4509adaa3ef3d1cae4499&=&format=webp&width=901&height=676" alt="#" className='w-[520px] rounded-3xl hover:scale-110 transition-transform cursor-pointer' />
+                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257783562606743683/WhatsApp_Image_2024-07-02_at_15.53.13_dbd01736.jpg?ex=6687a3f9&is=66865279&hm=5b9fa4a246e77db20c15a55a9e3d0a427981d192e7d18e374ad0c59f9531630e&=&format=webp&width=901&height=676" alt="#" className='w-[520px] rounded-3xl hover:scale-110 transition-transform cursor-pointer' />
                         <h1 className='p-3 text-2xl text-[#205980] font-normal tracking-wider text-center'>Bedsheets</h1>
                         <p className='max-w-lg text-center text-md text-gray-700'>100sets of assorted cushion covers @ Rs. 15,000/-</p>
-                        <a href="#" className='mt-5 pl-5 pr-5 pt-2 pb-2 bg-[#20596e] text-white rounded-lg hover:bg-[#ff9c4a] transition-all'>Bedsheets </a>
+                        <Link href="/bedsheets" className='mt-5 pl-5 pr-5 pt-2 pb-2 bg-[#20596e] text-white rounded-lg hover:bg-[#ff9c4a] transition-all'>Bedsheets </Link>
                     </div>
                     <div className='flex flex-col p-3 items-center justify-center m-1 transition'>
-                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257783562606743683/WhatsApp_Image_2024-07-02_at_15.53.13_dbd01736.jpg?ex=6685a9b9&is=66845839&hm=bbac6b979bb5c36b3ac832b1f5d81bb93bd0a15c330ff772f43d3f9fc7e3bf9d&=&format=webp&width=901&height=676" alt="#" className='w-[520px] rounded-3xl hover:scale-110 transition-transform cursor-pointer' />
+                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257783608672911370/WhatsApp_Image_2024-07-02_at_15.53.13_6159b5a0.jpg?ex=6687a404&is=66865284&hm=8822e7d5bfa1d1485709dc1648d993729c02bae4178b642ec0e76140e25d0dbe&=&format=webp&width=901&height=676" alt="#" className='w-[520px] rounded-3xl hover:scale-110 transition-transform cursor-pointer' />
                         <h1 className='p-3 text-2xl text-[#205980] font-normal tracking-wider text-center'>Curtains</h1>
                         <p className='max-w-lg text-center text-md text-gray-700'>For an exceptional price of Rs. 699/-</p>
-                        <a href="#" className='mt-5 pl-5 pr-5 pt-2 pb-2 bg-[#20596e] text-white rounded-lg hover:bg-[#ff9c4a] transition-all'>Curtains</a>
+                        <Link href="/curtains" className='mt-5 pl-5 pr-5 pt-2 pb-2 bg-[#20596e] text-white rounded-lg hover:bg-[#ff9c4a] transition-all'>Curtains</Link>
                     </div>
                     <div className='flex flex-col p-3 items-center justify-center m-1 transition'>
-                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257783608672911370/WhatsApp_Image_2024-07-02_at_15.53.13_6159b5a0.jpg?ex=6685a9c4&is=66845844&hm=220216afc62ecc6c8c4d35f1187a3b4527a5a6a1808bc7c9a60e86c47807f120&=&format=webp&width=901&height=676" alt="#" className='w-[520px] rounded-3xl hover:scale-110 transition-transform cursor-pointer' />
+                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257783643674247188/WhatsApp_Image_2024-07-02_at_15.54.09_465a430f.jpg?ex=6687a40d&is=6686528d&hm=c485d0c77b98a47f9398cde0e80e5af387673fdb5ca142c246fa73b39c6e0c4e&=&format=webp&width=901&height=676" alt="#" className='w-[520px] rounded-3xl hover:scale-110 transition-transform cursor-pointer' />
                         <h1 className='p-3 text-2xl text-[#205980] font-normal tracking-wider text-center'>Catalogs</h1>
                         <p className='max-w-lg text-center text-md text-gray-700'>ou'll never find a more stylish and versatile solution to your window coverage. Make your home feel like home and add a touch of warmth with our wide selection of luxury curtains.</p>
-                        <a href="#" className='mt-5 pl-5 pr-5 pt-2 pb-2 bg-[#20596e] text-white rounded-lg hover:bg-[#ff9c4a] transition-all'>Catalogs</a>
+                        <Link href="/catalogs" className='mt-5 pl-5 pr-5 pt-2 pb-2 bg-[#20596e] text-white rounded-lg hover:bg-[#ff9c4a] transition-all'>Catalogs</Link>
                     </div>
                     <div className='flex flex-col p-3 items-center justify-center m-1 transition'>
-                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257783643674247188/WhatsApp_Image_2024-07-02_at_15.54.09_465a430f.jpg?ex=6685a9cd&is=6684584d&hm=e4f48253b98c244f89cee72f980230364b75f135d35dc135396aa993c9b21148&=&format=webp&width=901&height=676" alt="#" className='w-[520px] rounded-3xl hover:scale-110 transition-transform cursor-pointer' />
+                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257783660804051046/WhatsApp_Image_2024-07-02_at_15.54.58_da02791a.jpg?ex=6687a411&is=66865291&hm=fa3b48cc460dbdb55b6ee3f0e587ce93d30280983ea6787930e2af64b7c3f19a&=&format=webp&width=901&height=676" alt="#" className='w-[520px] rounded-3xl hover:scale-110 transition-transform cursor-pointer' />
                         <h1 className='p-3 text-2xl text-[#205980] font-normal tracking-wider text-center'>Sofas & Decor</h1>
                         <p className='max-w-lg text-center text-md text-gray-700  m-1'>Savvy curtains aren't born. They're made by you. And to make the job easier, we've got some ways to get you started</p>
-                        <a href="#" className='mt-5 pl-5 pr-5 pt-2 pb-2 bg-[#20596e] text-white rounded-lg hover:bg-[#ff9c4a] transition-all'>Sofas</a>
+                        <Link href="/sofas" className='mt-5 pl-5 pr-5 pt-2 pb-2 bg-[#20596e] text-white rounded-lg hover:bg-[#ff9c4a] transition-all'>Sofas</Link>
                     </div>
                 </div>
             </div>

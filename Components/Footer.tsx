@@ -7,11 +7,13 @@ const Footer = () => {
             <div className='flex flex-col md:flex-row p-[100px] mt-10 bg-[#ececec] items-center justify-between'>
                 <div>
                     <div className='items-center lg:items-start flex flex-col justify-center'>
-                        <img src="https://img.icons8.com/?size=100&id=Os2uH6Y2KyxM&format=png&color=000000" width={30} className='pb-4' />
+                        <a href="/">
+                            <img src="https://img.icons8.com/?size=100&id=Os2uH6Y2KyxM&format=png&color=000000" width={30} className='pb-4' />
+                        </a>
                         <a href="/" className='text-[18px] lg:text-2xl text-[#fb923c] text-center'>S𝓪𝔂𝓮𝓮𝓭𝓲𝓪𝓼 C𝓾𝓻𝓽𝓪𝓲𝓷 G𝓪𝓵𝓵𝓮𝓻𝔂</a>
                         <p className='pt-3 text-center md:text-start'>"Transform your space with our elegant curtains –<br /> tailored to perfection, adding style and privacy effortlessly."</p>
                     </div>
-                    <div className='flex flex-row pt-5 relative left-[-10px]'>
+                    <div className='flex flex-row pt-5 items-center justify-center lg:items-start lg:justify-start'>
                         <a href="https://www.instagram.com/sayeedia_curtain_gallery/">
                             <img src="https://img.icons8.com/?size=100&id=32292&format=png&color=000000" alt="insta" width={30} className='m-4 hover:translate-y-[-2px] transition-all' />
                         </a>
@@ -21,41 +23,35 @@ const Footer = () => {
                         <a href='https://wa.me/9700011630'>
                             <img src="https://img.icons8.com/?size=100&id=16712&format=png&color=000000" alt="whatsapp" width={30} className='m-4 cursor-pointer hover:translate-y-[-2px] transition-all' />
                         </a>
-                        <a href='#'>
-                            <img src="https://img.icons8.com/?size=100&id=fJp7hepMryiw&format=png&color=000000" alt="whatsapp" width={30} className='m-4 cursor-pointer hover:translate-y-[-2px] transition-all' />
-                        </a>
-                        <a href='#'>
-                            <img src="https://img.icons8.com/?size=100&id=447&format=png&color=000000" alt="whatsapp" width={30} className='m-4 cursor-pointer hover:translate-y-[-2px] transition-all' />
-                        </a>
                     </div>
                 </div>
                 <div className='hidden lg:flex flex-col items-center justify-center'>
                     <h1 className='text-2xl text-[#205980] text-center font-normal'>Curtains</h1>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Turkish</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Metallic</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Qupid</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>English Net</a>
+                    <Link href="/curtains" className='mt-4 hover:text-[#fb923c] transition-all'>Turkish</Link>
+                    <Link href="/curtains" className='mt-4 hover:text-[#fb923c] transition-all'>Metallic</Link>
+                    <Link href="/curtains" className='mt-4 hover:text-[#fb923c] transition-all'>Qupid</Link>
+                    <Link href="/curtains" className='mt-4 hover:text-[#fb923c] transition-all'>English Net</Link>
                 </div>
                 <div className='hidden lg:flex flex-col items-center justify-center'>
                     <h1 className='text-2xl text-[#205980] text-center font-normal'>Bedsheets</h1>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Trendy</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Silk Satin</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Mimosa</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Hybrid</a>
+                    <Link href="/bedsheets" className='mt-4 hover:text-[#fb923c] transition-all'>Trendy</Link>
+                    <Link href="/bedsheets" className='mt-4 hover:text-[#fb923c] transition-all'>Silk Satin</Link>
+                    <Link href="/bedsheets" className='mt-4 hover:text-[#fb923c] transition-all'>Mimosa</Link>
+                    <Link href="/bedsheets" className='mt-4 hover:text-[#fb923c] transition-all'>Hybrid</Link>
                 </div>
                 <div className='hidden lg:flex flex-col items-center justify-center'>
                     <h1 className='text-2xl text-[#205980] text-center font-normal'>Decoration</h1>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Finials</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Rope</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Catalogs</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Accessories</a>
+                    <Link href="/catalogs" className='mt-4 hover:text-[#fb923c] transition-all'>Finials</Link>
+                    <Link href="/catalogs" className='mt-4 hover:text-[#fb923c] transition-all'>Rope</Link>
+                    <Link href="/catalogs" className='mt-4 hover:text-[#fb923c] transition-all'>Catalogs</Link>
+                    <Link href="/catalogs" className='mt-4 hover:text-[#fb923c] transition-all'>Accessories</Link>
                 </div>
                 <div className='hidden lg:flex flex-col items-center justify-center'>
                     <h1 className='text-2xl text-[#205980] text-center font-normal'>Sofas</h1>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Alfa</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Monaco</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Twinkle</a>
-                    <a href="#" className='mt-4 hover:text-[#fb923c] transition-all'>Velvet</a>
+                    <Link href="/sofas" className='mt-4 hover:text-[#fb923c] transition-all'>Alfa</Link>
+                    <Link href="/sofas" className='mt-4 hover:text-[#fb923c] transition-all'>Monaco</Link>
+                    <Link href="/sofas" className='mt-4 hover:text-[#fb923c] transition-all'>Twinkle</Link>
+                    <Link href="/sofas" className='mt-4 hover:text-[#fb923c] transition-all'>Velvet</Link>
                 </div>
             </div>
         </div >
