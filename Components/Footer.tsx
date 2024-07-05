@@ -50,7 +50,7 @@ const Footer = () => {
                     <h1 className='text-2xl text-[#205980] text-center font-normal'>Sofas</h1>
                     <Link href="/sofas" className='mt-4 hover:text-[#fb923c] transition-all'>Alfa</Link>
                     <Link href="/sofas" className='mt-4 hover:text-[#fb923c] transition-all'>Monaco</Link>
-                    <Link href="/sofas" className='mt-4 hover:text-[#fb923c] transition-all'>Twinkle</Link>
+                    <Link href="/sofas" className='mt-4 hover:text-[#fb923c] transition-all'>Cotton</Link>
                     <Link href="/sofas" className='mt-4 hover:text-[#fb923c] transition-all'>Velvet</Link>
                 </div>
             </div>
