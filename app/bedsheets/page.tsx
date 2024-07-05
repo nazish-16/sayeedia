@@ -4,26 +4,24 @@ import Footer from '@/Components/Footer';
 import Navbar from '@/Components/Navbar';
 import React, { useState } from 'react';
 import Image from 'next/image';
-import bed1 from './bed1.jpg'
-import bed2 from './bed2.jpg'
-import bed3 from './bed3.jpg'
-import bed4 from './bed4.jpg'
-import bed5 from './bed5.jpg'
-import bed6 from './bed6.jpg'
-import bed7 from './bed7.jpg'
-import bed8 from './bed8.jpg'
-import bed9 from './bed9.jpg'
-import bed10 from './bed10.jpg'
-import bed11 from './bed11.jpg'
-import bed12 from './bed12.jpg'
-import bed13 from './bed13.jpg'
-import bed14 from './bed14.jpg'
-import bed15 from './bed15.jpg'
-import bed16 from './bed16.jpg'
-import bed17 from './bed17.jpg'
-import bed18 from './bed18.jpg'
-
-
+import bed1 from './bed1.jpg';
+import bed2 from './bed2.jpg';
+import bed3 from './bed3.jpg';
+import bed4 from './bed4.jpg';
+import bed5 from './bed5.jpg';
+import bed6 from './bed6.jpg';
+import bed7 from './bed7.jpg';
+import bed8 from './bed8.jpg';
+import bed9 from './bed9.jpg';
+import bed10 from './bed10.jpg';
+import bed11 from './bed11.jpg';
+import bed12 from './bed12.jpg';
+import bed13 from './bed13.jpg';
+import bed14 from './bed14.jpg';
+import bed15 from './bed15.jpg';
+import bed16 from './bed16.jpg';
+import bed17 from './bed17.jpg';
+import bed18 from './bed18.jpg';
 
 const Page = () => {
     const [fullscreenImage, setFullscreenImage] = useState<string | null>(null);
@@ -46,12 +44,12 @@ const Page = () => {
                     <h1 className='text-[#205980] text-2xl pt-5 font-normal underline underline-offset-1'>Trendy Comforters</h1>
                     <div className='flex justify-between items-center'>
                         <div className='grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 m-5 p-3'>
-                            <Image src={bed1} alt='' width={220} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={bed2} alt='' width={220} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={bed3} alt='' width={220} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={bed4} alt='' width={220} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={bed5} alt='' width={220} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={bed6} alt='' width={220} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
+                            <Image src={bed1} alt='' width={220} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed1.src)} />
+                            <Image src={bed2} alt='' width={220} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed2.src)} />
+                            <Image src={bed3} alt='' width={220} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed3.src)} />
+                            <Image src={bed4} alt='' width={220} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed4.src)} />
+                            <Image src={bed5} alt='' width={220} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed5.src)} />
+                            <Image src={bed6} alt='' width={220} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed6.src)} />
                         </div>
                         <div className='hidden lg:flex'>
                             <img src="https://cdn.pixabay.com/photo/2017/08/06/15/33/bedroom-2593500_1280.jpg" width={280} className='rounded-md hover:translate-y-[-4px] transition-transform m-5 cursor-pointer' onClick={() => openFullscreen("https://cdn.pixabay.com/photo/2017/08/06/15/33/bedroom-2593500_1280.jpg")} />
@@ -60,12 +58,12 @@ const Page = () => {
                     <h1 className='text-[#205980] text-2xl pt-5 font-normal underline underline-offset-1'>Silk Satin</h1>
                     <div className='flex justify-between items-center'>
                         <div className='grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 m-5 p-3'>
-                            <Image src={bed7} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={bed8} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={bed9} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={bed10} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={bed11} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={bed12} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
+                            <Image src={bed7} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed7.src)} />
+                            <Image src={bed8} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed8.src)} />
+                            <Image src={bed9} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed9.src)} />
+                            <Image src={bed10} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed10.src)} />
+                            <Image src={bed11} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed11.src)} />
+                            <Image src={bed12} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed12.src)} />
                         </div>
 
                         <div className='hidden lg:flex'>
@@ -75,12 +73,12 @@ const Page = () => {
                     <h1 className='text-[#205980] text-2xl pt-5 font-normal underline underline-offset-1'>Hybrid Bedsheets</h1>
                     <div className='flex justify-between items-center'>
                         <div className='grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 m-5 p-3'>
-                            <Image src={bed13} alt='' width={230} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={bed14} alt='' width={230} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={bed15} alt='' width={230} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={bed16} alt='' width={230} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={bed17} alt='' width={230} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={bed18} alt='' width={230} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
+                            <Image src={bed13} alt='' width={230} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed13.src)} />
+                            <Image src={bed14} alt='' width={230} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed14.src)} />
+                            <Image src={bed15} alt='' width={230} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed15.src)} />
+                            <Image src={bed16} alt='' width={230} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed16.src)} />
+                            <Image src={bed17} alt='' width={230} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed17.src)} />
+                            <Image src={bed18} alt='' width={230} className='h-[220px] m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(bed18.src)} />
                         </div>
                         <div className='hidden lg:flex'>
                             <img src="https://images.pexels.com/photos/462235/pexels-photo-462235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width={280} className='rounded-md hover:translate-y-[-4px] transition-transform m-5 cursor-pointer' onClick={() => openFullscreen("https://images.pexels.com/photos/462235/pexels-photo-462235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")} />
@@ -88,11 +86,11 @@ const Page = () => {
                     </div>
                 </div>
                 <Footer />
-            </div >
+            </div>
             {fullscreenImage && (
                 <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-75 z-50">
                     <div className="relative max-w-full max-h-full">
-                        <img src={fullscreenImage} alt="Fullscreen" className="max-w-full max-h-full" />
+                        <img src={fullscreenImage} alt="Fullscreen" className="w-[400px] h-[500px] lg:w-[450px] lg:h-[600px] rounded-lg" />
                         <button className="absolute top-2 right-2 text-white text-6xl cursor-pointer" onClick={closeFullscreen}>×</button>
                     </div>
                 </div>

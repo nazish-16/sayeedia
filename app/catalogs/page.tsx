@@ -50,12 +50,12 @@ const Page = () => {
                     <h1 className='text-[#205980] text-2xl pt-5 font-normal underline underline-offset-1'>Catalogs</h1>
                     <div className='flex justify-between items-center'>
                         <div className='grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 m-5 p-3'>
-                            <Image src={cat1} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat2} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat3} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat4} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat5} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat6} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
+                            <Image src={cat1} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat1.src)} />
+                            <Image src={cat2} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat2.src)} />
+                            <Image src={cat3} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat3.src)} />
+                            <Image src={cat4} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat4.src)} />
+                            <Image src={cat5} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat5.src)} />
+                            <Image src={cat6} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat6.src)} />
                         </div>
                         <div className='hidden lg:flex'>
                             <img src="https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width={280} className='rounded-md hover:translate-y-[-4px] transition-transform m-5 cursor-pointer' onClick={() => openFullscreen("https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")} />
@@ -63,12 +63,12 @@ const Page = () => {
                     </div>
                     <div className='flex justify-between items-center'>
                         <div className='grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 m-5 p-3'>
-                            <Image src={cat7} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat8} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat9} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat10} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat11} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat12} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
+                            <Image src={cat7} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat7.src)} />
+                            <Image src={cat8} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat8.src)} />
+                            <Image src={cat9} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat9.src)} />
+                            <Image src={cat10} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat10.src)} />
+                            <Image src={cat11} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat11.src)} />
+                            <Image src={cat12} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat12.src)} />
                         </div>
 
                         <div className='hidden lg:flex'>
@@ -78,12 +78,12 @@ const Page = () => {
 
                     <div className='flex justify-between items-center'>
                         <div className='grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 m-5 p-3'>
-                            <Image src={cat13} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat14} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat15} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat16} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat17} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat18} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
+                            <Image src={cat13} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat13.src)} />
+                            <Image src={cat14} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat14.src)} />
+                            <Image src={cat15} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat15.src)} />
+                            <Image src={cat16} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat16.src)} />
+                            <Image src={cat17} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat17.src)} />
+                            <Image src={cat18} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat18.src)} />
                         </div>
                         <div className='hidden lg:flex'>
                             <img src="https://images.pexels.com/photos/2343469/pexels-photo-2343469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width={280} className='rounded-md hover:translate-y-[-4px] transition-transform m-5 cursor-pointer' onClick={() => openFullscreen("https://images.pexels.com/photos/2343469/pexels-photo-2343469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")} />
@@ -93,12 +93,12 @@ const Page = () => {
 
                     <div className='flex justify-between items-center'>
                         <div className='grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 m-5 p-3'>
-                            <Image src={cat19} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat20} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat21} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat22} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat23} alt='' width={180} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
-                            <Image src={cat24} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' />
+                            <Image src={cat19} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat19.src)} />
+                            <Image src={cat20} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat20.src)} />
+                            <Image src={cat21} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat21.src)} />
+                            <Image src={cat22} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat22.src)} />
+                            <Image src={cat23} alt='' width={180} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat23.src)} />
+                            <Image src={cat24} alt='' width={200} className='m-2 rounded-md hover:scale-105 transition-transform cursor-pointer' onClick={() => openFullscreen(cat24.src)} />
                         </div>
                         <div className='hidden lg:flex'>
                             <img src="https://images.pexels.com/photos/534172/pexels-photo-534172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width={280} className='rounded-md hover:translate-y-[-4px] transition-transform m-5 cursor-pointer' onClick={() => openFullscreen("https://images.pexels.com/photos/534172/pexels-photo-534172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")} />
@@ -107,10 +107,12 @@ const Page = () => {
                 </div>
                 <Footer />
             </div >
+
+            {/* Fullscreen Image Modal */}
             {fullscreenImage && (
                 <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-75 z-50">
                     <div className="relative max-w-full max-h-full">
-                        <img src={fullscreenImage} alt="Fullscreen" className="max-w-full max-h-full" />
+                        <img src={fullscreenImage} alt="Fullscreen" className="w-[400px] h-[500px] lg:w-[450px] lg:h-[600px] rounded-lg" />
                         <button className="absolute top-2 right-2 text-white text-6xl cursor-pointer" onClick={closeFullscreen}>×</button>
                     </div>
                 </div>

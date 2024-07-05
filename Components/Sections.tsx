@@ -7,8 +7,18 @@ import { motion } from 'framer-motion'
 import Footer from './Footer'
 import Projects from './Projects'
 import Contact from './Contact'
-import owner from './owner.png'
+import owner from './images/owner.png'
 import Image from 'next/image'
+import w11 from './images/w11.jpg'
+import woriginal from './images/woriginal.jpg'
+import w1 from './images/w1.jpg'
+import w2 from './images/w2.jpg'
+import w4 from './images/w4.jpg'
+import w5 from './images/w5.jpg'
+import w6 from './images/w6.jpg'
+import curtain10 from '../app/curtains/curtain10.jpg'
+
+
 
 const Sections = () => {
     const fadeIn = {
@@ -29,32 +39,32 @@ const Sections = () => {
             <div className='relative top-[260px]'>
                 <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6'>
                     <div className='flex flex-col p-10 items-center justify-center rounded-lg m-1 transition'>
-                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257786122365440091/image.png?ex=6687a65c&is=668654dc&hm=b425cb37d0dfb3f93b34a1e3388bf6424c1238542b6630c15766574844ea5203&=&format=webp&quality=lossless" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
+                        <Image src={curtain10} alt="" className='w-[170px] h-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
                         <h1 className='p-4 text-2xl text-[#205980] font-normal tracking-wider text-center'>Curtains</h1>
                         <p className='max-w-lg text-center text-md text-gray-700'>Our stunning collection of curtains is sure to make your room stand out.</p>
                     </div>
                     <div className='flex flex-col p-10 items-center justify-center m-1 transition'>
-                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257786623631032350/image.png?ex=6687a6d3&is=66865553&hm=d15b1b506f82f3542ee53389770870c840e0f961acb0a5f7ffc05c6042da4bf2&=&format=webp&quality=lossless&width=765&height=676" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
+                        <Image src={w2} alt="#" className='w-[170px] h-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
                         <h1 className='p-4 text-2xl text-[#205980] font-normal tracking-wider text-center'>Comforters</h1>
                         <p className='max-w-lg text-center text-md text-gray-700'>Looking for the perfect piece to complement your bedsheets? Look no further!</p>
                     </div>
                     <div className='flex flex-col p-10 items-center justify-center m-1 transition'>
-                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257786943345922108/image.png?ex=6687a71f&is=6686559f&hm=26fff6d92d3103e7cbb4f510ade9d48abfb333aa7f5a8d93e38952c7af34f267&=&format=webp&quality=lossless" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
+                        <Image src={w1} alt="#" className='w-[170px] h-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
                         <h1 className='p-4 text-2xl text-[#205980] font-normal tracking-wider text-center'>Catalogs</h1>
                         <p className='max-w-lg text-center text-md text-gray-700'>Catalogs are a quick and easy way to check out more samples. There are endless color & style</p>
                     </div>
                     <div className='flex flex-col p-10 items-center justify-center m-1 transition'>
-                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257787857980882955/image.png?ex=6687a7f9&is=66865679&hm=8ef3df3ff57a29b886f0244506f4ea561efe6097879892f64213dc5a1d50cfa4&=&format=webp&quality=lossless&width=741&height=676" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
+                        <Image src={w4} alt="#" className='w-[170px] h-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
                         <h1 className='p-4 text-2xl text-[#205980] font-normal tracking-wider text-center'>Accessories</h1>
                         <p className='max-w-lg text-center text-md text-gray-700  m-1'>Add a finishing touch to your decor with our collection of finials. The perfect style</p>
                     </div>
                     <div className='flex flex-col p-10 items-center justify-center m-1 transition'>
-                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257788723551146075/image.png?ex=6687a8c8&is=66865748&hm=9a4d75eb8470b4fe6a2bf0340971406a7e1a69a218a20c22d3ea4c15d201d118&=&format=webp&quality=lossless" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
+                        <Image src={w5} alt="#" className='w-[170px] h-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
                         <h1 className='p-4 text-[23px] text-[#205980] font-normal tracking-wider text-center'>Fabric Samples</h1>
                         <p className='max-w-lg text-center text-md text-gray-700'>We offer a variety of different types of fabric, to help you find the perfect fit for your project.</p>
                     </div>
                     <div className='flex flex-col p-10 items-center justify-center m-1 transition'>
-                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1257788909056950272/image.png?ex=6687a8f4&is=66865774&hm=576abbb6568093cfca358742f253adf7dc41779d2a26d2c9f0f9f72a0e455840&=&format=webp&quality=lossless" alt="#" className='w-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
+                        <Image src={w6} alt="#" className='w-[170px] h-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
                         <h1 className='p-4 text-2xl text-[#205980] font-normal tracking-wider text-center'>Net Curtains</h1>
                         <p className='max-w-lg text-center text-md text-gray-700'>Our sheer curtains add a touch of elegance to your home. These sheers will add style and privacy</p>
                     </div>
