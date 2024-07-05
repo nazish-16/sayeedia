@@ -7,6 +7,8 @@ import { motion } from 'framer-motion'
 import Footer from './Footer'
 import Projects from './Projects'
 import Contact from './Contact'
+import owner from './owner.png'
+import Image from 'next/image'
 
 const Sections = () => {
     const fadeIn = {
@@ -65,7 +67,7 @@ const Sections = () => {
                         <p className='pt-5'> <strong>Minhaj Ahmed</strong>, the visionary behind Sayeedia's Curtain Gallery, embodies a passion for interior design that stems from a lifelong appreciation for aesthetics and functionality. With a keen eye for detail and a commitment to quality, Minhaj has curated a collection of curtains that blend innovation with timeless elegance.</p>
                     </div>
                     <div className='pt-8 pr-6 pl-6 items-center'>
-                        <img src="https://media.discordapp.net/attachments/1257783340673536053/1258354648784572477/WhatsApp_Image_2024-06-26_at_15.png?ex=6687bd97&is=66866c17&hm=ad3dcf98f714ef739a0a9c28c807889b642d600218dae8bcad3d38485ad1563b&=&format=webp&quality=lossless" alt="owner" className='ml-4 rounded-full m-2' width={330} />
+                        <Image src={owner} alt="owner" className='ml-4 rounded-full m-2' width={330} />
                     </div>
                 </div>
                 <Sales />
