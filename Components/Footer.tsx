@@ -27,23 +27,22 @@ const Footer = () => {
                 </div>
                 <div className='hidden lg:flex flex-col items-center justify-center'>
                     <h1 className='text-2xl text-[#205980] text-center font-normal'>Curtains</h1>
-                    <Link href="/curtains" className='mt-4 hover:text-[#fb923c] transition-all'>Turkish</Link>
                     <Link href="/curtains" className='mt-4 hover:text-[#fb923c] transition-all'>Metallic</Link>
                     <Link href="/curtains" className='mt-4 hover:text-[#fb923c] transition-all'>Qupid</Link>
+                    <Link href="/curtains" className='mt-4 hover:text-[#fb923c] transition-all'>Softy Satin</Link>
                     <Link href="/curtains" className='mt-4 hover:text-[#fb923c] transition-all'>English Net</Link>
                 </div>
                 <div className='hidden lg:flex flex-col items-center justify-center'>
                     <h1 className='text-2xl text-[#205980] text-center font-normal'>Bedsheets</h1>
                     <Link href="/bedsheets" className='mt-4 hover:text-[#fb923c] transition-all'>Trendy</Link>
                     <Link href="/bedsheets" className='mt-4 hover:text-[#fb923c] transition-all'>Silk Satin</Link>
-                    <Link href="/bedsheets" className='mt-4 hover:text-[#fb923c] transition-all'>Mimosa</Link>
                     <Link href="/bedsheets" className='mt-4 hover:text-[#fb923c] transition-all'>Hybrid</Link>
                 </div>
                 <div className='hidden lg:flex flex-col items-center justify-center'>
                     <h1 className='text-2xl text-[#205980] text-center font-normal'>Decoration</h1>
+                    <Link href="/catalogs" className='mt-4 hover:text-[#fb923c] transition-all'>Catalogs</Link>
                     <Link href="/catalogs" className='mt-4 hover:text-[#fb923c] transition-all'>Finials</Link>
                     <Link href="/catalogs" className='mt-4 hover:text-[#fb923c] transition-all'>Rope</Link>
-                    <Link href="/catalogs" className='mt-4 hover:text-[#fb923c] transition-all'>Catalogs</Link>
                     <Link href="/catalogs" className='mt-4 hover:text-[#fb923c] transition-all'>Accessories</Link>
                 </div>
                 <div className='hidden lg:flex flex-col items-center justify-center'>
