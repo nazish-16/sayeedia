@@ -116,7 +116,7 @@ const Navbar: React.FC = () => {
                                 {[
                                     { text: 'Home', path: '/' },
                                     { text: 'About us', path: '#company' },
-                                    { text: 'Services', path: '#samples' },
+                                    { text: 'Samples', path: '#samples' },
                                     { text: 'Projects', path: '#projects' },
                                     { text: 'Contact us', path: '#contact' },
                                 ].map((item, index) => (
