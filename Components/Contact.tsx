@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+import shop from './images/shop.jpg'
 
 const Contact = () => {
     const submitButton = (event: React.FormEvent<HTMLFormElement>) => {
@@ -10,7 +12,7 @@ const Contact = () => {
         <div className='p-8' id='contact'>
             <div className='items-center flex flex-col justify-center'>
                 <h1 className="text-3xl text-center text-orange-500 m-4">
-                    Connect with us
+                    Contact with us
                 </h1>
                 <p className='hidden sm:flex max-w-3xl text-center m-4'>
                     Experience elegance at Sayedia Curtains Gallery. From bespoke curtains to expert interior advice, we're here to transform your space. Contact us today to schedule a consultation and elevate your home or business with our tailored solutions and impeccable service.
@@ -28,61 +30,28 @@ const Contact = () => {
                         referrerPolicy="no-referrer-when-downgrade"
                     />
                 </div>
-                <div className='flex flex-col w-[100%] md:w-[60%] xl:w-[30%] p-10 bg-white rounded-lg shadow-lg'>
-                    <form onSubmit={submitButton} className='space-y-6 grid-cols-1 md:grid-cols-2 grid relative bottom-16'>
-                        <div className='p-1'>
-                            <label className='block text-sm font-medium text-gray-700 relative top-6'>Name</label>
-                            <input
-                                type="text"
-                                className='mt-7 block w-full p-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
-                                required
-                            />
-                        </div>
-                        <div className='p-1'>
-                            <label className='block text-sm font-medium text-gray-700'>Email</label>
-                            <input
-                                type="email"
-                                className='mt-1 block w-full p-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
-                                required
-                            />
-                        </div>
-                        <div className='p-1'>
-                            <label className='block text-sm font-medium text-gray-700'>Phone Number</label>
-                            <input
-                                type="phone-number"
-                                className='mt-1 block w-full p-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
-                                required
-                            />
-                        </div>
-                        <div className='p-1'>
-                            <label className='block text-sm font-medium text-gray-700'>Type</label>
-                            <select
-                                name="Type"
-                                className='mt-1 block w-full p-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
-                            >
-                                <option value="Curtains">Curtains</option>
-                                <option value="Sofas & Decor">Sofas & Decor</option>
-                                <option value="Blindings">Blindings</option>
-                                <option value="Fabric">Fabric</option>
-                            </select>
-                        </div>
-                    </form>
-                    <div className='p-1 bottom-12 relative'>
-                        <label className='block text-sm font-medium text-gray-700'>Message</label>
-                        <textarea
-                            className='mt-1 block w-full p-2 border border-orange-500 rounded-md shadow-sm focus:outline-none focus:ring-orange-500 focus:border-orange-500 sm:text-sm'
-                            rows={4}
-                            required
-                        />
+                <div>
+                    <div className='flex items-center justify-center'>
+                        <Image src={shop} width={330} alt='shop' className='rounded-lg' />
                     </div>
-                    <div className='flex justify-center items-center'>
-                        <button
-                            type="submit"
-                            className='px-6 py-2 border-2 border-orange-400 text-black hover:text-white font-medium rounded-md shadow-sm hover:bg-orange-400 transition-all items-center'
-                        >
-                            Submit
-                        </button>
-                    </div>
+                    <a className='flex flex-row justify-center items-center border-2 border-[#ba3da9] pt-1 pb-1 pr-24 pl-24 rounded-lg m-5 hover:bg-[#ba3da9] transition-all hover:text-white' href='https://www.instagram.com/sayeedia_curtain_gallery/'>
+                        <a>
+                            <img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="ig" className='w-8 m-1' />
+                        </a>
+                        <a>Instagram</a>
+                    </a>
+                    <a className='flex flex-row justify-center items-center border-2 border-blue-500 pt-1 pb-1 pr-24 pl-24 rounded-lg m-5 hover:bg-blue-500 transition-all hover:text-white' href='https://www.facebook.com/SayeediasCurtainGallery/'>
+                        <a>
+                            <img src="https://img.icons8.com/?size=100&id=118497&format=png&color=000000" alt="ig" className='w-8 m-1' />
+                        </a>
+                        <a>Facebook</a>
+                    </a>
+                    <a className='flex flex-row justify-center items-center border-2 border-green-400 pt-1 pb-1 pr-24 pl-24 rounded-lg m-5 hover:bg-green-400 transition-all hover:text-white' href='https://wa.me/9700011630'>
+                        <a>
+                            <img src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" alt="ig" className='w-8 m-1' />
+                        </a>
+                        <a>Whatsapp</a>
+                    </a>
                 </div>
             </div>
         </div>

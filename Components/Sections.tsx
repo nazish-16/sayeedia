@@ -74,8 +74,10 @@ const Sections = () => {
                         <p className='pt-5'>Sayeedia Curtain Gallery established for over 20 years now and all made to measure curtains and curtains, specializing in made-to-measure curtains. Their extensive experience ensures high-quality, custom-fitted curtains tailored to meet the specific needs and tastes of their clients. With a focus on craftsmanship and customer satisfaction, Sayeedia Curtain Gallery offers a wide range of fabrics and designs, providing bespoke solutions that enhance any living space.</p>
                         <p className='pt-5'> <strong>Minhaj Ahmed</strong>, the visionary behind Sayeedia's Curtain Gallery, embodies a passion for interior design that stems from a lifelong appreciation for aesthetics and functionality. With a keen eye for detail and a commitment to quality, Minhaj has curated a collection of curtains that blend innovation with timeless elegance.</p>
                     </div>
-                    <div className='pt-8 pr-6 pl-6 items-center'>
-                        <Image src={owner} alt="owner" className='ml-4 rounded-full m-2' width={330} />
+                    <div className='pt-8 pr-6 pl-6 items-center flex flex-col hover:translate-y-[-4px] transition-transform'>
+                        <a href="https://www.instagram.com/minhajahmedsayeedia/</div>">
+                            <Image src={owner} alt="owner" className='ml-4 rounded-full m-2' width={330} />
+                        </a>
                     </div>
                 </div>
                 <Sales />
@@ -85,8 +87,8 @@ const Sections = () => {
                 <hr />
                 <Contact />
                 <Footer />
-            </div>
-        </motion.div>
+            </div >
+        </motion.div >
     )
 }
 
