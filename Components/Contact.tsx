@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import shop from './images/shop.jpg'
+import Link from 'next/link';
 
 const Contact = () => {
     const submitButton = (event: React.FormEvent<HTMLFormElement>) => {
@@ -34,24 +35,18 @@ const Contact = () => {
                     <div className='flex items-center justify-center'>
                         <Image src={shop} width={330} alt='shop' className='rounded-lg' />
                     </div>
-                    <a className='flex flex-row justify-center items-center border-2 border-[#ba3da9] pt-1 pb-1 pr-24 pl-24 rounded-lg m-5 hover:bg-[#ba3da9] transition-all hover:text-white' href='https://www.instagram.com/sayeedia_curtain_gallery/' target='_blank'>
-                        <a>
-                            <img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="ig" className='w-8 m-1' />
-                        </a>
-                        <a>Instagram</a>
-                    </a>
-                    <a className='flex flex-row justify-center items-center border-2 border-blue-500 pt-1 pb-1 pr-24 pl-24 rounded-lg m-5 hover:bg-blue-500 transition-all hover:text-white' href='https://www.facebook.com/SayeediasCurtainGallery/' target='_blank'>
-                        <a>
-                            <img src="https://img.icons8.com/?size=100&id=118497&format=png&color=000000" alt="ig" className='w-8 m-1' />
-                        </a>
-                        <a>Facebook</a>
-                    </a>
-                    <a className='flex flex-row justify-center items-center border-2 border-green-400 pt-1 pb-1 pr-24 pl-24 rounded-lg m-5 hover:bg-green-400 transition-all hover:text-white' href='https://wa.me/9700011630' target='_blank'>
-                        <a>
-                            <img src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" alt="ig" className='w-8 m-1' />
-                        </a>
-                        <a>Whatsapp</a>
-                    </a>
+                    <Link className='flex flex-row justify-center items-center border-2 border-[#ba3da9] pt-1 pb-1 pr-24 pl-24 rounded-lg m-5 hover:bg-[#ba3da9] transition-all hover:text-white' href='https://www.instagram.com/sayeedia_curtain_gallery/' target='_blank'>
+                        <img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="ig" className='w-8 m-1' />
+                        Instagram
+                    </Link>
+                    <Link className='flex flex-row justify-center items-center border-2 border-blue-500 pt-1 pb-1 pr-24 pl-24 rounded-lg m-5 hover:bg-blue-500 transition-all hover:text-white' href='https://www.facebook.com/SayeediasCurtainGallery/' target='_blank'>
+                        <img src="https://img.icons8.com/?size=100&id=118497&format=png&color=000000" alt="ig" className='w-8 m-1' />
+                        Facebook
+                    </Link>
+                    <Link className='flex flex-row justify-center items-center border-2 border-green-400 pt-1 pb-1 pr-24 pl-24 rounded-lg m-5 hover:bg-green-400 transition-all hover:text-white' href='https://wa.me/9700011630' target='_blank'>
+                        <img src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" alt="ig" className='w-8 m-1' />
+                        Whatsapp
+                    </Link>
                 </div>
             </div>
         </div>
