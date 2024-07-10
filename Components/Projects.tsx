@@ -1,4 +1,19 @@
 import React from 'react';
+import Image from 'next/image';
+import img1 from '../Components/images/img1.webp'
+import img2 from '../Components/images/img2.jpg'
+import img3 from '../Components/images/img3.webp'
+import img4 from '../Components/images/img4.webp'
+import img5 from '../Components/images/img5.jpg'
+import img6 from '../Components/images/img6.webp'
+import img7 from '../Components/images/img7.jpg'
+import img8 from '../Components/images/img8.jpg'
+import img9 from '../Components/images/img9.jpg'
+import img10 from '../Components/images/img10.jpg'
+import img11 from '../Components/images/img11.jpg'
+import img12 from '../Components/images/img12.jpg'
+
+
 
 const Projects = () => {
 
@@ -11,18 +26,18 @@ const Projects = () => {
             </div>
             <div className='flex flex-col lg:flex-row items-center justify-center'>
                 <div className='grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 m-12 lg:m-0'>
-                    <img src="https://images-ext-1.discordapp.net/external/Wxz2Ev79hsi6AJvBQ2naZKqEqROeUslQ_-zGOteqo5E/https/www.curtainlabel.com/wp-content/uploads/2022/12/IMG-20220319-WA0063.jpg?format=webp&width=507&height=676" width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
-                    <img src="https://scontent.fhyd1-5.fna.fbcdn.net/v/t39.30808-6/340072437_160781293243824_2423165896979485280_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=5nPBWpmdepUQ7kNvgEcDJl_&_nc_ht=scontent.fhyd1-5.fna&oh=00_AYDBMf7WhqcymKIgD_NKF4yZF3FpH2MvKMCIXHbkbJbumw&oe=669214D7" width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
-                    <img src="https://images-ext-1.discordapp.net/external/c2IA1lI-iU_HYkdYI3nHIgRX3cNz_ehou8_iMQvQwV8/https/www.curtainlabel.com/wp-content/uploads/2022/12/IMG-20220319-WA00591.jpg?format=webp&width=507&height=676" width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
-                    <img src="https://images-ext-1.discordapp.net/external/qa3k1th1g30zFdj5kCTzzdev4n-133MuBvIOKNC1Pq4/https/www.curtainlabel.com/wp-content/uploads/2022/12/IMG-20210909-WA0012.jpg?format=webp&width=507&height=676" width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
-                    <img src="https://scontent.fhyd1-4.fna.fbcdn.net/v/t39.30808-6/340080108_180009634860252_6708775006020462815_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=GHTeIqdJQDUQ7kNvgHBaMEF&_nc_ht=scontent.fhyd1-4.fna&oh=00_AYC6zaYAyzT3BVdPS49Or7TMtnXRwmuUNqPR16jFbEhOZw&oe=668C501F" width={200} className='m-5 rounded-lg hover:scale-105 transition-transform' />
-                    <img src="https://scontent.fhyd1-6.fna.fbcdn.net/v/t39.30808-6/337552382_604698391532417_4236336680741693624_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=j-8q3usnbm8Q7kNvgEctvIG&_nc_ht=scontent.fhyd1-6.fna&oh=00_AYDMWbq8O-YItkrQetrO4DZivQhe6c9rfb0-cFlKF56myw&oe=668C4C17" width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
-                    <img src="https://scontent.fhyd1-4.fna.fbcdn.net/v/t1.6435-9/88307153_2934100909946438_2723092532194967552_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=7b2446&_nc_ohc=0TOL07pgwh8Q7kNvgGPa7c9&_nc_ht=scontent.fhyd1-4.fna&oh=00_AYA6K7LIugDjfuTOaDKvLYk8NBtPJv03zDq0cyndRS323w&oe=66ADDBA6" width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
-                    <img src="https://images-ext-1.discordapp.net/external/o-DkJ34VD44a1NqEeQH7n0p79kJugxbtA9pTZ83CbYc/https/www.curtainlabel.com/wp-content/uploads/2022/12/74209236_111228353661478_205416848269770752_n-2.jpg?format=webp&width=529&height=676" width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
-                    <img src="https://scontent.fhyd1-6.fna.fbcdn.net/v/t39.30808-6/340211579_148894514792160_8903149872083388119_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=9x0YUxrBpscQ7kNvgFy7KQG&_nc_ht=scontent.fhyd1-6.fna&oh=00_AYCaYFFMBOuAaveH84SSNQ_v-aK8y4Pv-67j1aSl0B9B5Q&oe=668C5B11" width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
-                    <img src="https://scontent.fhyd1-3.fna.fbcdn.net/v/t39.30808-6/339975945_5842141715883203_4246279985844812299_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=n2WbqElb0hIQ7kNvgEDaUbT&_nc_ht=scontent.fhyd1-3.fna&oh=00_AYAF4uVq-tyMtTTI3-twQjWn8dTDUtcJlpz3osCGmpKVLg&oe=669209A1" width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
-                    <img src="https://scontent.fhyd1-5.fna.fbcdn.net/v/t1.6435-9/145872725_3926284417394744_7359469456619123681_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7b2446&_nc_ohc=C921HDg1okUQ7kNvgHFtMKk&_nc_ht=scontent.fhyd1-5.fna&oh=00_AYB1RD5MKKDmLmaUC5ccRaob5mWwF3YJt2yCa7OIkrb6pQ&oe=66ADF250" width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
-                    <img src="https://scontent.fhyd1-3.fna.fbcdn.net/v/t1.6435-9/89120784_2934099589946570_7215148962511060992_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=7b2446&_nc_ohc=hIYtcz_ePx8Q7kNvgEBWXRe&_nc_ht=scontent.fhyd1-3.fna&oh=00_AYD3pDFF2eOVm0S4VPl2nNy2nVNjJUEZnfQrF6XqVt0nWA&oe=66B3931D" width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
+                    <Image src={img1} alt='img1' width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
+                    <Image src={img2} alt='img2' width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
+                    <Image src={img3} alt='img3' width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
+                    <Image src={img4} alt='img4' width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
+                    <Image src={img5} alt='img1' width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
+                    <Image src={img6} alt='img1' width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
+                    <Image src={img7} alt='img1' width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
+                    <Image src={img8} alt='img1' width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
+                    <Image src={img9} alt='img1' width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
+                    <Image src={img10} alt='img1' width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
+                    <Image src={img11} alt='img1' width={250} className='m-5 rounded-lg hover:scale-105 transition-transform' />
+                    <Image src={img12} alt='img1' width={210} className='m-5 rounded-lg hover:scale-105 transition-transform' />
                 </div>
             </div>
         </>
