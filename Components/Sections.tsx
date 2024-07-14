@@ -35,7 +35,7 @@ const Sections = () => {
             }}
         >
             <div className='relative top-[260px]'>
-                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-6'>
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 2xl:grid-cols-6'>
                     <div className='flex flex-col p-10 items-center justify-center rounded-lg m-1 transition'>
                         <Image src={curtain10} alt="" className='w-[170px] h-[170px] rounded-full hover:scale-105 transition-all cursor-pointer' />
                         <h1 className='p-4 text-2xl text-[#205980] font-normal tracking-wider text-center'>Curtains</h1>
@@ -75,7 +75,7 @@ const Sections = () => {
                         <p className='pt-5'> <strong>Minhaj Ahmed</strong>, the visionary behind Sayeedia's Curtain Gallery, embodies a passion for interior design that stems from a lifelong appreciation for aesthetics and functionality. With a keen eye for detail and a commitment to quality, Minhaj has curated a collection of curtains that blend innovation with timeless elegance.</p>
                     </div>
                     <div className='pt-8 pr-6 pl-6 items-center flex flex-col hover:translate-y-[-4px] transition-transform'>
-                        <a href="https://www.instagram.com/minhajahmedsayeedia/</div>">
+                        <a href="https://www.instagram.com/minhajahmedsayeedia/">
                             <Image src={owner} alt="owner" className='ml-4 rounded-full m-2' width={330} />
                         </a>
                     </div>
