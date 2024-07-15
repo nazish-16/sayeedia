@@ -23,7 +23,7 @@ export default function Home() {
       {showContactOptions && (
         <div className="contact-options-container hover:cursor-pointer">
           <div className="contact-option">
-            <a href="https://wa.me/9000004910">
+            <a href="https://wa.link/ib72qn">
               <img src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" alt="WhatsApp" className="contact-icon" />
             </a>
           </div>
