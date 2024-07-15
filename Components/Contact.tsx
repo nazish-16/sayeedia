@@ -32,21 +32,88 @@ const Contact = () => {
                     />
                 </div>
                 <div>
-                    <div className='flex items-center justify-center'>
-                        <Image src={shop} width={330} alt='shop' className='rounded-lg' />
-                    </div>
-                    <Link className='flex flex-row justify-center items-center border-2 border-[#ba3da9] pt-1 pb-1 pr-24 pl-24 rounded-lg m-5 hover:bg-[#ba3da9] transition-all hover:text-white' href='https://www.instagram.com/sayeedia_curtain_gallery/' target='_blank'>
-                        <img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="ig" className='w-8 m-1' />
-                        Instagram
-                    </Link>
-                    <Link className='flex flex-row justify-center items-center border-2 border-blue-500 pt-1 pb-1 pr-24 pl-24 rounded-lg m-5 hover:bg-blue-500 transition-all hover:text-white' href='https://www.facebook.com/SayeediasCurtainGallery/' target='_blank'>
-                        <img src="https://img.icons8.com/?size=100&id=118497&format=png&color=000000" alt="ig" className='w-8 m-1' />
-                        Facebook
-                    </Link>
-                    <Link className='flex flex-row justify-center items-center border-2 border-green-400 pt-1 pb-1 pr-24 pl-24 rounded-lg m-5 hover:bg-green-400 transition-all hover:text-white' href='https://wa.me/9700011630' target='_blank'>
-                        <img src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000" alt="ig" className='w-8 m-1' />
-                        Whatsapp
-                    </Link>
+                    <form className="space-y-3 w-[400px] p-6 bg-white shadow-lg rounded-md">
+                        <div>
+                            <label
+                                htmlFor="name"
+                                className="block text-sm font-medium leading-6 text-black"
+                            >
+                                Name
+                            </label>
+                            <div className="mt-2">
+                                <input
+                                    id="name"
+                                    name="name"
+                                    type="text"
+                                    autoComplete="name"
+                                    required
+                                    className="block w-full rounded-md py-1.5 text-gray-900 sm:text-sm sm:leading-6 border-orange-400 border-2"
+                                />
+                            </div>
+                        </div>
+                        <div>
+                            <label
+                                htmlFor="email"
+                                className="block text-sm font-medium leading-6 text-black"
+                            >
+                                Email
+                            </label>
+                            <div className="mt-2">
+                                <input
+                                    id="email"
+                                    name="email"
+                                    type="email"
+                                    autoComplete="email"
+                                    required
+                                    className="block w-full rounded-md py-1.5 text-gray-900 sm:text-sm sm:leading-6 border-orange-400 border-2"
+                                />
+                            </div>
+                        </div>
+                        <div>
+                            <label
+                                htmlFor="subject"
+                                className="block text-sm font-medium leading-6"
+                            >
+                                Subject
+                            </label>
+                            <div className="mt-2">
+                                <input
+                                    id="subject"
+                                    name="subject"
+                                    type="text"
+                                    autoComplete="subject"
+                                    required
+                                    className="block w-full rounded-md py-1.5 text-gray-900 sm:text-sm sm:leading-6 border-orange-400 border-2"
+                                />
+                            </div>
+                        </div>
+                        <div>
+                            <label
+                                htmlFor="message"
+                                className="block text-sm font-medium leading-6"
+                            >
+                                Message
+                            </label>
+                            <div className="mt-2">
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    autoComplete="message"
+                                    required
+                                    className="block w-full rounded-md py-1.5 text-gray-900 sm:text-sm sm:leading-6 border-orange-400 border-2"
+                                    rows={5}
+                                ></textarea>
+                            </div>
+                        </div>
+                        <div className="flex justify-center">
+                            <button
+                                type="submit"
+                                className="flex justify-center rounded-md border-2 border-orange-400 text-black px-4 py-2 text-sm font-semibold hover:bg-orange-400 hover:text-white transition duration-200 ease-in-out"
+                            >
+                                Submit
+                            </button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
