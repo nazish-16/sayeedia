@@ -33,7 +33,7 @@ export default function Home() {
             </a>
           </div>
           <div className="contact-option">
-            <a href="tel:+919000004910">
+            <a href="tel:9000004910">
               <img src="https://img.icons8.com/?size=100&id=124195&format=png&color=000000" alt="Phone" className="contact-icon" />
             </a>
           </div>
